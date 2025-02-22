@@ -1,0 +1,477 @@
+<!doctype html><html><head><title>FORTRESS</title><base href="."><!-- {SHADERS} --><script>const effectConstructors = {};</script><script>
+let objfileTree={blender:{}};function loadFromOBJFile(e){e=e.split("/");return 1===e.length?objfileTree[e[0]]:2===e.length?objfileTree[e[0]][e[1]]:void 0}
+eval(Function("[M='KoTA|ePSMJZ^HxJX{?k}a_nF^SYZ`_bI}jzWkP}YXOhPNhaUcyc^fbBoevGTSKhlkgNsLCW{Ad@rSJ|Wn[]GzKfBDZDAxtyKLsSRkjBvpt~e]iFyqLrZTHOwvl^TDxjijkYBMJqp?ca{yp^`MCDQpTBapvew{`GeovD[UWnGbIhzeBhqxek^g[nEidZVxWhxn@JCPbr?ziBxcuIXrg{Kdj}nSaZMfNajgf@bTtJEftOefe~WAsTsJauVfdfS@]HawB~FPn_me_XxdIXaz{{DDKVV^}}os`cnxFvntm^kTfhizSw~DYNrDz^qKCONeIAnRnKLOBzHgfUP_FEFjVfQAoSQqdJaEAsxrhVN_B?HF}xjhZfpUlgtzGqx`Bce^@}FB{Ar`d^zs_SpYHXlLujTezoaXFrGQYNqOXENvpWSiQmfO|QAGm~E~uRQNGnl~ARIvTZTxj[vHPKqbklL~RBR~cP}Oeg]wtYwcBCLQAoxdR^[GFNn~}KT|e{[K[JCKkx``@GBEiDrILmhH`xrfCi_AWtcPGyKsBUMrOld|_DHSjG?POLlyqGsxKAUQ@|Qb[_SkgDiiLnPALINm@w]jTPVBHQSdUO]XPMRS}iysVQGaXvlkvxnRChIUp@AIEXVaResfgTVbmDHFWqVH}ESLlRZSiwyhqDI~|JUHhBs?k[NWy[~Fb_hAgvSZw^JjG]LVT?FqewhBAi|~CpqTRGpabHB|EB@c`E~nVIK]MUm@kkb`nrm[tza]MoLGcKobaKj`pjgF~OQwsMpik||s]WmVPegacN_jjFjDCjlTN_^`F_RciJAUIspYfnfLPnIUcfzSsmQHrYgRREt{KSBunxxJheDWofRNPAAYXHncemvWwm}XrJ[k[orVwlekXS}FQMcY~g[nGY@^`abwwLthGSZDFJykCnRDNFT{P~ueRZW^gVNegOFoi?U`CmnzaP~D@oHNPTsRyMjVcHJChNUh^oD}Yw_UmE[iEUj]ia[BBU^|{sTc{gwPxnXR{IxLjrc@Zdw`Jrkjq@zSxX~YKPihH_nwyGT]dtWtmIWliwYA]BR`mHfOosyTzsyAvrljXQT_nLpkbTUryFn`oSHFXzgvALdMu[]}yzQryMQGHHjm|P@xIGzX?tGgdKuOSurxe|ifMjuKxGIeXzhj[sbp@d@Bo~Q?CC?RwmbfX}WkeADnEYK}CeHaOH@]P^RbQ~BonzvDVl~]upw[QoosnodrUcNms}dJVy_H^pRoWUkPajw~M]iF{|ReirRJ`uMuo``UOkCiAnXbKLoBaVqMYXEzqF_lUJmy~GUxT]GAWtTFyKuoB_`K`omPh?PS}WIM{yCmY[vPoVjNk@]HppuyURYnLPn_RdyBuiTNGcyEZOQOxd]DmPMCjj[y_j_qvDp~qTb[aSPh|NxQKAV[lFC_q`CBZ}pyIpjbVMVC`XjIfy[RW[PRfER|}kQseEOrlCbESQXBq{}VqWGLwDai{~OXen|uU|S[dQnBWmdYn|ZWCgTLbn]~bPHKSH{?CerypDQ}~D_[{|mIODJ`mVJerGQnXKvZpm@@_TNtj}QybRXKdktkc|t_]VpA]wIBXdkocmVidM^Va[KYF@~oh]CCQpGTkW_EDza_gVkDlPmK[ce|z{S|zvyPbAeCswNBauq}jmYUPpd_IUx}HZ]xSBrk?WtRvIv^mem_iHeEvwsdSl_rKgFFvaCRUy}RqDaENY`T_oT|dCyLJMoXKz^z_jCxezmRTSw{MnTey]cH}ZgsncwlvqZEBBSHZXs}FgdDuKB~}?hpilOfkOLRSY?AjNIUaxhTJDPXg|fahHAoQodpkfBF]fZuHGr|j]ZfMODw[Ee^ZSBLahbXzov`rOzIwtS?UW{YfvjGSaXAjmjVKOLMGmCDIwIo|aA`uEr]ymNTwEYA_YXZlS_r`@cVsShBp@V]X`Opj}uswt~@_lBkGWez@bg_|NUaTFcPPwtj|P@[kt[tL[?ladiwPcqzMkaIGm`|OU}K`IdLvJ{T}oo{KfpvoNQhPytbFOAJOMUsVBpOmfsJcr@KOr?H?^koE~IePDmf}vsRidXk[r|SEZ_^x?T^kBYnT^dMGKM[jNHr`CpmhdG?pSN~dy?nGI~{oFoh@lyawIWwxuPPPkvnKjVSh|OJSfLlKtijAM{?OOSNbHdTBNExVmZ~~xLxZUxr]q|BfzFubMCcoR@hd?iOXk_dJxYRVohFuJ]OVIJyS?VHNokKc|vvZEVeDDicXrBSNQNcxXAOqtcOJzbLPzRYLJqDKi[Q_@omivuygU|tmwLmoMC{VaPDYBzc|vD[y]Q^xkpvYJ@ZSpnIdWU~Unhff?_{fAnIc_NZVcWfGunZozoETbCw^_`rqVgeSo~q[?TrF}LSyBAE@qcoL[yDpCD`}RyYmdiWdihGbWLjrdOPLywM?oq?@WIsZZOv_OrF~HBCLtajIGoU~pX}e_}svuRqGgxKBjHuHd~qvXT}pMDcdB@GHB}GmrydhW?pnUpiBMog]BK[?lskst@~``_MCUxv~^l?hTGRUus~`OkMxVxZDMBGstlEWPemcNMkj_DFsmCSK_HmwLc[`Xaqf?qgDBk[OBVPDNPueea]@uVSvA[wavLcPBJHO?ngROJMCWF_EiVfpJD|LIEihvREmP@I[Tpy`i`VRZpu_VgrWDTLE?}k_GZBnEKxWs_fIi{UtVYdp|xDeyMqgaj}wmTlER]MLcF^FV@RIeeqWhH]eRtMQDm?`fFEwJTOB~Ic]NiAWe{A@oAkaTa[dRq^b]jyrSsO]LpJr@b{FN_xz`tOgHxd}gNO_SS~?a|oOquJ`ojjmR[h^PHt}TLC@nBmFCrynuLnHSM?LHCTo[FWKQPQIl_fEt{jL}A`YXvko|]_FqLaIX|mQA[hydMdffHooYO|vdz}Qw{PwkCZ~l[ITyaKq_PQrYBJfu~kfQGWSbAuHpFjDyLGArV{JrobJxl`|axLsaSVi?Bpp]?cwDb|{jHw`kBhGQJzS^Lxi|tdR?xiVQB_QvAbECmQjxVAmn|G[vUiDR_ogF@v`JUEWH_ieRfX`jR?aJUfCjXP}SSCsDdNl[h]NTRmzMCfpi?EabTgq~TamIn{DrjjTNBumq{|wWJQGExefek`LqwZxh`|_}dt[UnQI~?lwTDZoT~_DdvY}pG^AMCzEj{XvLERTcH|dGBGGjWT{GnwhazdusvYGEXw]sHHWMULcTanEHJxFltWrQdA_vMd{gF?UlK|wtEzUnBNtzIKjU]tnImV`|AnTzbEvEx@lvCkC@q`F[CBoTatVYf~GyeZxwpPGOFkobt@DuYwH^ycSOsN@mk@lqx~u`FxFUcIgAcpRj?XjWn?^`{?FjzUCWdLrPVfP@YMSdHHZsPmwYW{|~IoDsxcpHS@PO}HyNU{xfH^wEJ}GzB^xNeTR}i`UwvBIUGgI@IuR_g|uKpeLC?WU~XciY^od]C]aZI?AGk@{XRwfA}{_nXuP^pRVuzpgHBV}m|}CnlrGn}aFTAk{UTeZbmNQSNgOa?vpDwZv|@pa`el{}@ruEYmJT^`~VnEWh@Lb~syGR|S{bcFXk[YmMCO|{wrIaFg[{V}yugAGI~AxSXIVRpk`svCgum|Zh`]?dyuqtpUbu}yNfd^PUZ[eL`kUBO~xfyjHQO`Diegt`nceGHq~v@z[`Lb@QMTwwmHuhzJB~lWNn}_kqR@vYQ|hNaEKT{phKsTWoJFBuJvZnchYCrA}IRFWnJvzRg^Lk}z~M]fsZZAf}FqJHmsKR`XDqY^G~[zdiawpWIaW?JUSgZZrN??OxY}JYtx^PTY{?f[kUl~KmKP~dqNrSmeD?pRt`[Ys]y|oPF`EyKsB_?QSYDUf|AZEnZsIjsQjH}A@wptfze`Hr~nQAENFqt`lGf|hpx{CZ]{M]uiAZigF]~][?T{DWFRLaCQoxdEcLLihBGiFoZTJx||hf{}{nugS]dnhtjy}TYUYLZw{`ZK{kyFO|ylwc~USX]ryOGtivnOkLJzw]rRgErXQibXW{[_rYJJEn]w~D^ws`eq~p}{LFR}ckHUmOGNz{FYMcki_wryXRbPky{uxywn~DMPCK^VdmEhCtLvAC?{SG}}{lbcXOyXcCRR[IrTwXvzkis{MiZB@eS~R{BG|oldQ_uzS^ehgW|W^fDJMoKsEQ?kN|SS]Nz`HascidtN^HAMm^dSFEK[`j_@ltw~y_oPOpFvTYvALGaEN^QbmfgkkQAxevNtS]ACCpc{CiZ_popVnFJ?LwJJU^RohINjoHU}iTUDDKjoXlYSBEZzMEiD|hx{lNWJkT@d|mS}{uQuBpE}unU`rNRniT^TA_MftO[u]C]ivZC}^HyEBrys}Nd[Bmh]rby?xZMFex{u`Us[m{QLNXCfeo]W_DNCR{}hfVNYfP[iLXNX[VxM?^CJqz@eXqkO^_@{}D@c_HVpzde|e{|zuRzylzlTeiyrqFb~WEfJ?LOOW}Wi]?PD}b|x]vvmp|?YBpdhm]E}yz]M@dZRfbL{kguEtJLrIzTINEuX_Y^Y`@hNgN}ltElutrp_hWTSc{~YhYJNrvx@auZGn|EkSmzt^AW|vg|sJFiajN^pzDKWH~sjovFTPJDsaryZB@SbE~NK}QHxZS{bTr`V?DgoxqvgubFWVQclEP?[U]mj`VzzaxmQ[qrG[JDb{bbkh}?yJTVzr~LZKxGqotXD~Yi~fEBVuyeMgzxAbO^BiQAExA[jCRtuPUjyShs`xJLKNXsSpdy_tvUTGScN`st|sK{YxC[G`HbHcdHsuO]SBQswp?cI_t|YMWV`kV_^ws{~KNMr^pWzGGTJyRF}THf`XEoKuG?cesQ{oheKcMbGpCflPHODdDbbiC]BlkgYHYt[dk_NTLKggox[qqDEp~JdS{|~H_tVNnf_XizjHA~`ZoSoXB_gv~Lu~HuGvay?PxVswCTg}Frl^tFqeUKbSEKL]DJLAM^pcMtxrDGoOmQMUTKNGn{VACSO`n?vKMvv@U_YKyX[teerNFf~d?dfyDRYbbPIr^}TI@}syZcaTmhmWwrDuGLL[BC[c~e}hGvbToJ~rz}p_ImbLgXYPYThgLeQpKJymroL|EAgAqKzssIc_bQN@TEpA|fLGOxpPGLduiELwenKAR_zHWmP[wRw?auhq}tZgWSVFBzxZFOtd`nQEap@Hb`zmfy_m[~sjrck|~Ae~IeSQZp^F}qR[uA}jTyvoHRUbgWBuYMjPodRS@SoKCTMwZ]kPKQkfpQM_iQVnR?DtsVxm`Af^Axb]^a^~@D_E_^ibFUMQ`pbFMrslBdSnO~NI_}yESwKMDzAqc`Am{@Hp~hGgDHpSym@^DDCvFIL{E?Z`L^tAkkZXMfJIMq_l{owmlcEOlD~BDcJF@F~HosJmyV|ntfdtNS[ck[OIA`cCeUq}vZ?@?VlLIaXMReT@sPrQBIEEHNXwylzYk]gVeYfMm@svu}M_ZGzajRluisWTVmc{zIts~T[g^LHdtGscbI{CYTMkq^louyUU`l_aTc@nlVzLmJN?HtRMwvaDm}DTbY[lomD}rDXJB|owj}JqbTRGG|u`CkPC^`ySMBcEh[oXjN@t]aL_LSsu^T}Sw|K]I[ahDE}Y|OJXizGXLMn@k{_UOlt@|IKxEnFSOPWGuuCzJc`cUG{D]M[JBOIFKJo~zrTE~lCEsSJEq~Xqjc`~JMDnxsaRRjkMPyR~uImSoeOk`muhBAKXX}TpuToo`jVmK~fcbrbe@KEhnFgmzRhAwIGc[S|_MxoiuqdqxpDmsEwVZ^OF~qmXKjitcKHXOeT]i]pELkbO~qsGcYdLO_ArDikpNEuPNwX_}TxDLqU`QVMT_DF[jjmeHwQ~HNJQCkqXne}~bckSSFIROc^?atV?BBLVpHQd~M?ma_xUyAT@WIajbzkXrX?FqobOoO_ZvRxISNOFnbhbqYCyViQEeIZZjazMf_uooP|ib_npJzUdl@MLUXLtT{|x|`lQbzUVOeoRdkX}zdjkSrFpEuB]f{tycT~PJRYKZ`V|@`{LC]qiyIkX[nKu|{nGtZgGIzJE]q^s`T@DOMiLh?VmStqcBAXftWsWB_zZM||WRtVzV[dZOrnEzVC]{Tt^BiYKntZEKTsNJkCl`}pjfPUToIz@y{J{}oEWeYhLaJkD@ZClnWbYqzmxwbVC]qy^@]VBiIYBiDUI[VQ}XJTl[?ChLU[aB?CMkNk_GJThm}x~z{GA|uIosziN]rMXBwSQg|uEDrolq@_N@Pci~EFXqEwbZDoGIuuDr][ulojfifyCGsCpND_UEYcxs@c{ZQxYYE{hRM`I}?D}D?chiXbHe~SReBM@BHU?LCI}gHi^?j|mlEGJLgplDS]lxLnPh_BZai]idWUZ~f^`XVvl}^q|gIS`nzp_YoZqV_Mj?eK]Z__BMEFEOhAZJffV?Vhg~QKU]n~ORhNqcjkn][lIhHqg@B`_EtUKk{HIlrH~UdDpydAYJ|kQ{^Yvu]M`VOjPaCK_IFG}lCTOENA_srGbRzkqZqpTHbNf_IYI[z}IextNcOGT^[t`YHLVjTPujK]J~XNK|b{]KFMYC_zKhmsu~mtC?|ASjvU]~m}vWBKaOxR]Aw]lPtxqIFXhj{SN}n_u@tv`KQBS_[m~mApqYsI`z_yxqa^FUbIe^NQCQXLZ[c[prwV|ybUSB]Ur|Sp[oEg]cGvHfOHzShku`DOogpuf]W`V}ZawEh[ELu{?HFmj`ATuZ`B[ts?ZdawVBTijzUChttPCT_XzsTXTyWX]y{ZTuUNzwu|seoTmp?dI?bXA@v_YSUUsgOmiJA^MMsfViN{SsEFeCqJjWks]`BjVjBHFM_dBfXFUAyg]xftcCHgj_H{ac|vx}SR@tQzjlR`nJOpMPeeQrOkBuVal?`}Lnl?|yDSMzal~RO_e]Hf_ZRziN|Lzd@meT@LsOfOAW[BRC^_PaMoIBTvLXIcuAANnkkZlWr`}ztlmo}DNI[m|}Bh{EPnd@_yWlV}clBl@SKB[KxzZOdZgChSUoQKDX}hoHL@l{VUI?vlJmQYilYrnTruHnxfIuIbiwqHfSEwocQxa`]vL}tp@kh]_q}TOluls{gNZtWluEOekUmL[a}btEPsG`cMfLgICgdAA?IX_yIH?HKx^bzKAVQuttCCrH_DCbmtwEUbcTzRYb``?axaDCg}~}CBXKaJHkA]PrSwArR]SIOfNCxdqax^ISPkv`BCJCnIFAJmDQVOgGg]t_QyJvudC`wikSnw}Tf_SabnNCBqqAUEmvbg{uInRcZcSbjUHR^kim^NXDNKENdBa?EiwZn_{l^~utHa|?^BIlJHFgImdJuPVHW^ew]Q@^A@GhPY|kNmC}?IlsbOBezV?|cmaFjnwAIRi{e}zicWJszVmEeLSTZqK}uXAfQi|CzGaktdSVN^jaYTGsAReIVXH`aQeX[Rge~FiNANwnYO}fUOtEcZrsVL]NUSU?ENhNrywpH`]F[jra]@Ja?tNxnphamXoTspg}NRCVCxIp}rGHuZ~}WCjaGFmZ@OiLPDTzWRWFu{~}ngIn[i~DFAs[EflTYkHwxPlIECLq~t`]n~Ieh{RiDEJwOwR|QZJmQmSWZG?_|aJ[UZ}QCazOEzfTqrH]a{o_LX[DFOt}AgqzRwfXSlRz]qiJYlW}sKLsAaY{^VZj?FMPlqlD[QJfWizGQSwQeBIJuFKEaYkAcVFMMG@Rx]NlNDiVWGbXYQAnz?QmEGzRbpfK[L[YjrlgwNiovrxkxTeqzY_[_}}}ybeOSstQ}Mn]tZ`ox^guznt{aZkX|srTd]?e]OwX~kT{?tMk]pAYg_Gc[ddnKUiTw@HGbMtI}^WvkgmxMEY@pQMTHQxEFUiituK}NjZY^`]pIIA`_s@RrsCaT^MnT^X}coLRyZRC{}[VqxBvGcvynSFFZ~Uigpx]uw|efPSSH?DVi^ww[~l{E^{}l^pc}Y}SnNmi~njCvS{WGRRGkXlNYmGmOZ|Wv]`{JC]uEbAIJQlZOiGURyyMsouTjMbRlnruLtogvBoOZxi|@m~?HWRmIHZR}NpomNLqmrQT_Jxmf_XWJz?|CakPKy^Ervrj`JLMEpf~QMEfC|xQBn|Leel{OXFMzNF{Gkeoq]ilH^SkTG]oFsJwyVXgodub}EgJ?dDQA}nL]Kjzn[gjWHP@qO^KSoZ^aHVGYMyrsOSyIadCzF_nXJsdCZ}xiFxw]yFCwftgpTaV[SOWcaXcUJCb~]xLE|UAcDeLVAfzBIWEY}I{hEM_TgufpXzFftEXxaQXgj~]nArajF@cSKB{_XOscivnrsPLfmhO}^|{R?UMavEg_vST_Uou[n`Sc^mM_qlw_LPHTquQAv{FV?XxIdzNR_KCjTAklwzY`^v|nl|vw_VeDar|eHInKEFYJWxrceRaT}hJqx|~OiFueWhhpUUaNx[HBocN_JCS}JuNrOu]Vu|GG{?GdJ{DnCsButE^JW~tCjpk}gL{`N@k@wUo^m`JuLW`RTOH@XV]d}KgG`u`L?RqkLKPK^QDttn]RjSxKugyobDgaY^HZQn?[_rK@i_gim]t~ggq]niU?rjHUNgqFoWtw[JJGR|Uy}pLqGUkmTM?Sr`xGaATzQMqxjE_l`RSyilAbb?}L|oio[JIR[QCibPQ}hAb]ZhNcolDJZW^EbfHst?pRSYUhE@|~SaVwYeo}os^@[Lb}h_@s_l]CGHyEU^cUou?BbhGl|FpOeS?kkDYGtbMgmOKOk^lw^j}oBKKValqJdUtxr|iumeDcADUgJhJA{Ym|Qtr?fcLdiXfm`mQIpuScRsvUzBNnILeZEN^w?TyF}wIAFkTKKQQfsXkLRvhMcKjgU~DmWUjji^DwMWLZuoA^Hqo?zXwMC_J{~oh^Gxxl|trDzLOlYHK]GPIf|ZAnsEAtUcaP~[m?l`HQkAqFVF[_JBcC{gaplGyJ{CbZYxXNuRJxXttUKHRdMadlPyhGfDTtZqDSZ{[ihjVBvJOAj]p^yePFwb@yLrxmyXwuBhYfrwlcloAcyhiP{jN`}YbWUuFNwnWI~RHvlJiU}lpmvUWhocpquumPxw|UIU_RIxxi]tjO[k?nNnKPWkJJuLnow`BMFWXDrDhy_Rx^fD?AJDtea_trOW_KV{mpOK`}Yu?yCttmTwMkuOMTJmli^FtZKH^M`vNhhWazNKFdrUxTaZ@DP^qSeDcId_O^iCp@vwzKRAX|gvoCl@_rwsAGi`TcZTSKo`dtHs_jTO_KxLBpzZ@]yrysmAL^X~G_r@DSeCJl`S_DGLYO^kRdwypHuWJMRN~q`BHvHUOf]uiJuILK@CQmbnImcnP}_vOiXjEkRZZ]SCx^VrXjv}y|eOsbshaG[s_bSb^|d~sPI^rOzHdvqIaLUuNZC`K^_Nv?DOBcBh~ORZrDipmPs[Lm~ULtrbQWznODP{EIxQY{LQJNrL[O^hMobaClDlQW[pg@SHwFjuodPnkf[TQRHhjFy~_LOyi`Sp{KhNIZBG?rkuFGTvNSB{VMvIoXc^HT~@{^_ejo^AEBS@uwsQVED|iYjBTOi}UrS@B@MAVVHtV_`ccD|?s[v^kHo@O`Xjx?J~YqbK}_~RrFq]kQsuJDu[m{nzwyi@@^PgkyuGllvZdstfv?qju@|qd[C^QTAMX|RrcK`F|ZDKNb[dmAs_@Wg{EyACUEhtoqjme{TGgZX|haDtcxl?K]Hm]_?kCvU{va?QPRsleRnBVebAjCjr}cQy@[|vdIBrXvAaO|mbaf@ah]?DQhZhs}BrSG`ZTfzR?NDlBUAEdPHXTgZZeW?hpLdrFlX}}~NYVgyuhMTkTOGjY[nYIoutg{UolMvs[jwxdZ|OffsO^?Ur[jCLeGr?H}kK|Azbhmui]igjzCvamrYQ^QFmroIw?USKaomAgnZuyfdV|CnJfhUejPBtZVKrElZyZGED{dMzEIJBXhYLZu[V^v_SwlPqcqeThEFhbFPoira`CiyU@LcIjgmcm{H@f^ZOtrEOIa~Kpl~mnHVKig`vuap?ySsS@qQ~iLLFYbWNVNTwV}BRBpArF|ADDGHY^zyIrDVdxF}^{KflG~V`oXiMJZQJudrTEmT^tBv?X]ynRZiq|wmjykXpCoM}gySkFZiqZglU[KpJMExwfhpAD_qR~a{UH_]m`bjg]tYZ~XLkYiDlKwUvrdIbAtASqpQEFBc@b]y_eKbU_x^FMpZ|bEyyvySV|b_BVW`mQ]sJwFeXNdIVBgsIFZ?dtOrxOr@zzTvthECpBxmxB{GvoeYUWQGnhUmfrz`HQ]T@v}PEKuWoqjCHLkXe|PTMsooW`QWVu~zYEWoXT]pEMlj?WzS@?PIIWNFEus^SITZZp{}@TqzFZGQCBj}Az|?`s@OcERtgfLfiBMk_RmH_oTGnGeWZMr@VYPBVF^SxtqIJybOWED|_RgWremGYg~^aedsrVriEPT~xRpbLoEOpvwb]Qvx_d{|o{]MBLkqbnOgWfHXQu^tdylPztL{VWjQ^Fxs}G?@xVV?u~xXTjQvjN^`C~sT^GwWgu{e[`_cOBmc]sREUMlMKD}gFDbBVTmN]mEtnbkz?{AvHOrx@ReSLbt{k}YUv|A}dVaHdL?u~[[pBrU]z_DsnuJH{kYWlmmvFsJYOCXFD?g{TZDbYnruDbDt{`sjpwvu~eB|[[ItImRvZFfHSdVxRRhHLoJ@f?CyrwvxWXzpNyAEYdLxLvcUyrZlP^eOsPygcVOeHDShmqW}nkioiborx?Jk?VBKGPwsyPK[D{^h_^sxZFYDZGtlhTZFtGAf_RlEJAh{CwBBNuiOrOxWWbcjhBxKzWrPbVoMgFAPYVFlgMDuesmSQYdzlHvosAwqf?Yj{wb||XBSnEve`TKKxsetR}SnqYRWS`ll_cdDi|@uaGW{@gjwFGmKOQj_@~mAZNqQ`t^DQSjFH[@HTNUDqD?otECfcVrP?IQOSrZAwRetVoPpdWi[U}pj{~cZP}ZkNZ?xQ?pyB{Q[ei]JdnTarYNbD|Re@ZLiuUI]rCbBnOGAcNDbuHNl~W?^aplHcY]QSUIA~jRN^vqr_]PmwE`z~C~s^qGMonlicK|GvvcHwp}CjnHmC[YYuhiAT]|{JnPMsCdiPZpLNqxoOqUJikoRQulvOnJgBKu@bFs}BVaiykI?aDsfxJFV`tN[_LBprrNsVQw{yvnRBCQK`C~LnKJF|muA]J]_XGi{UG_pYe[A{fexoydpBCf`Xg?_VsxJtA@ub`LP?WNl}hSDs_~IaXx{?Iz}mlDCT[s[uM|xRONmqpvqorN}q}}uxSpDJVBnCpfIkChn?fbdz`m{idfhDdYoHOafeLGp`rVcVHo{LP|MKipPbZoY[zqFCg^_`O}DuKIAyixadIIvKf_oMKezloeRgiuZ|`uRreO_QkT`zbasDnD]XpaFFET`jLxBSHGqlXBsuTW|Ozqr`NBnUhSnFSbCIuLHCrq^_Gclke?gH_{Nrl`jR|O_iI?DKB_p]XjFtJ|HgM^~BXukCFMhn]?qCrTcHE[rsUJxewuZ~Fir[^uUDDFsW^|LLebSs{{UKiteWJKFAMniC?pRNQWcIG@oRBIqQTGI?v~Mq^LMdIfYWZHcl@s|fF{D`PPGOiXKYw?nqaZgoK{sK~o]sUKOiuFcrLQregcf{mQ^I}l|iuusngvNZ]RN|vNASTd[ElvYiT_bHe^BAcZVx]eUtPWP[MS}WZNOrJzAQHP]}j]o_qeR@[o{KsuP[Z]Zlbe]|a~CRU}mkxN]yUlkd}onnakWherZCuWjqW|v[hyUz@tVA|XbB]]grbtnj}EltkPeyNnXNNUe]lwYQ^JPxplN{QFus}|{]WJP{L~cCygQjOOeVaVD~}EXuBSR@]aPhKofdMCUwPi}N}wS^mTmTndlxDVrm}SXOsD`a_jpRWtCdIV`vm`UFdzACaP[O~vu[ltCvPyzEHlDAZl{^qtdjPjcYhOgEg}|R[zeioETeOGwcwuCmw?]]{WO|Mx|{mnt?|tdZyD}^oJEEEBgOR{FsU@_AYyZz_|a[esCoRevr}YCn`fk@|vLPXelNZrO`HbpNC^JqrzIiMlLlMybviLUTA`UYYQHbmqFcI@Drat|VIcqC~eZ[SyQmGH~}BmQWfOAr|d~XPb]NgefNVU}_`j?M[hiT`ANnM{Rea@va?yt}RBYFuW?yEvKsNoLNRrilmezaFjSO}f}KzfRyXoiDwJoH?gqlnEgZ`yUV?{pGygGV?uL]f@zq|q{VIXJ^FqZDKoawYpthzLdoEVPCSnZnYLudM^dlFlNGhRXScipWhop^HSuQZWbOwURyQeWSx~laL`aBcTfZRPOtpb[nAIbFoQ`HVUxL|sLKIuItUFtjFtmdOdvv|qQKKL_eGecLIPKQawTaTRex^XPUIatw}L~nH]HC@IxGH~oTaLEcKdhFyqLpQmYgKaBIPVA|bRmSIZYuhO_pEEbC`[_|nV^CNVbhM_h{CvyYEnNf~dBrNTog@vgaGpKIyJ_mj]vSwedrKxDlyYioFccoTFELdV_^_GE}aHsJdbNyfK]r]QimMqFTzdIzxKZTK}Ub{B~VBqDBb?UV`_e[P@{_GSA`^~XFIqhrYov~~NhVQKU|MlhSAJQLnGJkcLH_EzO^@Ovb[]vpV`nNF[p?^My`PdxwZvIlw_GXPOZzD_Mdo|F^QfDsptg?mBkt`l@loLw_UhMKqEwYG`FoMAFjluPVRV@cW_cvsDXwE@kw~Y_OSebAHGL~UWr^uJacjqNnoTayHwfmi`TkgxFiwvRsoKaFc{AersCQ|{jwAnx~_T]KHWmxzj~EriULjTzUJztlQbKM?~kDF`s[rFPPb{W`_SeqkQG^rrGWf}PGozj`a^UsIGmbQYGyIcC[@XX@Jzzh@ca}TmwhhD|?eub~k`It`{OqROS`qujVWdMx^BwGVerybBkwtSmWcCdsatjoS]BWn]xwB}c?NZxyXGsacWtOfKfo?XSEcOm~fkmABs@JJXHAoT_VJHI^|u@OVF[rKDULl@GTVCeSHlC@gukLFZFfPWFjBLbBrFvHkVqy`h|F{hx}pFujxAU~s|OPlzK_Pb@h{qeWbn_N?kdwEAXfupQ[[P}UlAo`zAheEM~xWutTLNbZ]x}MJtbPcvgMOlTuDPHCr|HuCRgS{KFJ@DHYs?UFVcGTpBOkPPSV^dJY|R`LqcVIH^sgjDJKgar{~Mw]Zs{UXBqB_IG_RJVFjPegX_rA[LbmWJYycguZphIzHLerCyB[gDkhFApOdQ~?stuOvEE@FfbiVsduleJLKcE_xnxKxUZfEx[qhsxwghWbpilQ_tLIL[zXc]UJFCIRaLPLWyBUCucjMHKDtTL~RhYhcpKmz~^^?{_HF?~GgBn?sdQJs@YcFQiFj]wqlyHYa?mibxOEp@v_xUCH_kE`x?dXUJtsscJnDHLp^egrVW~Pg__]GTeLhDzLCPVojyoeYVGM~hAooWof{EdA@MCBGo]MLohEoe?uXtyZANRTwC~WLt~SSrRpwuT][{Bhal?}NJYuF}KWG~US|pwUbrizahBDoVE_UmBuvIqa[Td]bPofEIJmU^}u{RN@^~n~gZOwW_jRzbWoFqJjzdEg_fSPCWWeo`dtkxOx}th[Q_ESFY``MpjCQVpViZFAodGWqiaaayjUqrKvzAyvIg|rfHyB}|hx^r|o?Wt]F[lFcD_yJd|iJKMABI]PIk]}IsoaljG}hKN?fcasX|u~Dat{|RB?C[gRyKcG|pCYT|@GoabYtWVd]WCKRkorcahUEWKwF_i^HA{]dXjkU~EV?wDaHFNbN}Luoo?sEci[UPYDXG[P}IzMfIhukoA|hTsdfzf?qitFv?o{[YkdOolYASVpB`cCXPnGcsohEgp{GmkLZgzhuOklmBzfxVWNE_ZIyHU}~pAJtaGzO`so[`ROOsSngbEVzuy`iXd~twrja]L`BXjQzzoNSRb~x{COKfiqQvw]qdu`GC]NanmVrOj_wlSPE]hCBmP`}lO[Wp}jjiPk_DbcFKHGppRVyPHUgUa@hedE}djxVyI}HzynphlZSArGAOREdXgjvlxC[fylwBPp^KUdXY{RKvTudqbnZpzeYt?X`ojoLG@Gv]m[XwxVrDPd[BjITtBnFQMZLTWFIZmWpBGo@uV}Cd?Hu`Hcg]HRu^pDvXINE_hKk}Z{AAzvkK^`FhNbvapvN@J^RHE{Bupa`KUCjRG^hNRlcgW]eVRwe]LVwgeCs?H{D{[nnlVyIC[EbD|s{@CiOeRguIZjwmjKaSQwJil`_DVpjQm`xWZDXsmVTOa`kqP]ihVhxjn{J`Bo|n}~TuC[P`CoAxDDaYeVqZDlcMoxGgZYayiGJJz|NJcechb]boGwpadP[EpL{y?PTDZII@tNlEUfsCRffcd~[|KXANs_Ys[[i~]OvCueysOzHiuyg|i`|]Aj[eW]jIcIHFsFsaYSTcRJFH^}]K~rKvrPJP@NgBRJYWYGTsPqsWkzDBJSZ?ua^W?W~CdxIjwi[V?fLU{i}R~D`@^s|ZXW?owCINS~Uu_IbwRn]^PXZxJMULDXhg~sQWFgXqovbNvm]A^GYJ|fC]DoOBYZOjOAqsSa|kwBGlJjD{ab{BzYUz]jkRbJj_|QpIfvRqRoOTH[YL[}g]kw^k_ybBBMT{@vJEDRDlop`[q|YxlLw{wv@tCJfRRlnL`WS`EplPKoOcEZZCvyC|@L_L~WPHZDf`bIgxGmxUtfy^jn?FGoSveHb?SrhSpEXeKn{E|K`du[ADW}]xuz[II|~vNGF`|lCscvkyc~I[^M{p~fMTMOixjE?TSGcyp[{`~glGLBrO]XXIfmC@rk?JgzuZPKhPlBawos_pXG|lMkN]CpvkJ[TtMIV@rZnbG|kYGZfGQrGwUi]PrvUvKOX}C^HEuRrWdLy^D``P^E_YtegjpEYJ_uUnRrlO]xBWaDy`C?qLgY[Xt[Pb[PjklUFbh`EgM?fV^|qp_UZKEbLBnrvWy[BAIpWS@V`~rR~MIvVMZ^XcNMUxN_n}APUJgyWCtcOa`XpxHsDbl^TrDDVdYpYvKUOhgFDNiLcAZJtfBOpEZPX_zNIxVLG^}LjlO]dUZrlAMmO`OS[Fql]SvB|LM`fQgHON?okd@aJOdpF^VTgal]G`}{qBq]z}}{rrEoobdRoW[dBHHZ|O^mVlgajzUjeJUWgCRAsWKzsb@}sTPWr]VwHgRvnS_CBC^fVPrEX_i}s}MISjqiSQVCVgV?XkeglCjHmPjSkLRCZ~MlOdECxs[KI^d~{BHU?gGKEaVVF~KU?|SQYsmyqcu_nU|B^P[Zs}nzMqzhA}rKhs@?^rjFLpIOIF|aCfbK@uAq`MR`JmBn?oi[n]knccg`GBRYZW_mLu]im@T}b`aQ??bnBiM^?JY_qUcNCu{WqlKEKyKuAG[]joM`sYvqToMx~BCjKsUw?iX]TBmtXquxsx`UZ`^m|hHbY_coi][Stl{ii_TIFQ]mPfBnqAmRoJdgXeeEYkynVw{zU]OsW}?qb{yS_}f|GRrcOMr`tSijwqpfsjKxiFPbGs`~JgCAZnXImd^|]SAQD@YWB^~fPNYx@Qfv{~ZJhOCwH}KhWRNWNORrWeHNrJlJ?Zy@yddGgBmuiCsjNfjGbpSiSteAj_xNc[oqsCjYwNeiWQFWncwAsJzrEbqPZmwWSZk^MAiHWJYUaktA[Maq~PVQjwX@]nk~D`jH}Oz?gtMkxYfrzSMvZPFNW[Nby[@pB|n]c`IR{Es__rO}ul~]_azYmoTWmcyOElAtBDI{l[l?wrso]@vtxuVMG@TqMQ`Wvtg[wpDvIz{NvfUGvzsErCSrZmtp~faASrvSG}eNYHppRZw?Iaez_WtMC[ZO]cLUs@r{AQD_ctJa|bTOWJLFRr[QyEon{_Rf?`MLE}dWn]CqU|QVHk]_yXWRt~^@@tdn`XDCCT~_ozC?_VKYHjWApoMSKuJVF~Xkuv`cxjKuREs}blAHuJ}gvFE|f~r{IIYAQ~oE@PixR@H]w{xgVGzeNO^kqmItzB{BPwVmFwcPfD}xhL}`Ii^K~A`lKoNBAxz^@L[ok__{pGcV[zp?yp@tEo@D^l}e[oSIIDBK{N@Ay_nhdw[F|aJHVt@LUDxufs{_Q`HKB[@Q]qmCaz^X]@LdRhmjpzB[kOpoMc|[hFuQ}wOw[UfpqYGfhvd|nhXRKuoK{Uzb}LaGowRiahPL`MrfF~A^_wv@jackFBEuOCd@zcaQPvGvUb{aZacNRFC{lJ`@BvTGOekgw^Zl`e^KSYbQdldGTL~HsJ]xmWEYVDUD~KpOiG}JmyLjxrmmaKvbXbb[LtkzzIvRu`H_{PZDs_ftYs~N_A{BiKu|AXex`vurCLHuwvhiIYdNgPpAoXO]aCjXDJwpWJtXtcP__C__s?cBlUEUQTa@bieGmOiBgjPSqAPJGliiUjkrPT~pY@seD@?J_znTDGJohLZ~`t?LFbenrnGfbQTpHic[]KHbY~vL}]||XRzPaAdD|MDfCelxknT{tRuJrtwmviRNuYa}Pse}^lNd``YqNvSUDlfOlpCDVgdtxjJn{YJkqIiwt?AX[TsyMXTylv^~_cku{@DyGwEfjJaoZowdxp^V[gCVv]|bzuVzJUUlgqk^bf}bLjurxODERPvHD^nFHXRRme~r`OKmY}_O|YsQB}cUafExavi{hi@M|QXZaCOBcL[Z}pZSt?]y{WVV_UtW?}WTpqNSa{SZQ[hLmPCl{MV]Q~^_]QfantTTJ^_uoRCfUsQfM?BnfRMAThTSnXl[qSEYemRBLzyNXnefFFdw{ip~GhhFF[Ibft?EkKKILpErBEd`wt?]O[J^ZnTOt@jXxevWwTA`H^sHPJ]SIf@t|qFM?GCNmQGVwV@yYpjkbWdCDtNaNsKvr[WbMzVr~D}|S_^QPc|kf_uVeSGBAvUh_BiG^O^l|MLL~{HIvGncyLUlZNvePM_MnoxcvBGNqGFX{qdmNPeCxkTFR`ih?LojVUETloqotypSccgGwOH}uFoe?brNHepU]g|Uj}f@T]hmLqO^lcaReiRN{GFqm~uIQ`VpSALb~RdHmBKOCyx_OJXCWOK]^pD}_~I[Vvuo|]^BDyHJNLELxsfbAmegw~_OUwe^ChI[f}K]kGM{Z~?cWGkAA|dLu{fSZT{|{^IwPPwe^EBt[w|Na~hBgvNSUFNPd]YgO@Xe?PbLktC?muoLjrpZEVbooaM~biJ]HG`pjHuQhbyt}xcCeBihdqYpn`nx]]}zHCSCu_rKCt]ce]tzuemd~`ZtUGC?nTQktqJ[J?f}|fKDr@mgHm|]vJwKabVJEd@PUjAfPOaViZdcK|MonL_pNjBu[}[TCmtbIyCcPzYqBc}BEw_Hn@NbgX?NkJzv^`bNLGsrwjzqQL|a{oKNAFrHATdK[CAtTC{l~WwTyfc[xj{YiBqnndvstqa{TXS~CaIFRnntNjvZ@fVhbecnpuNdE`PjzLrNlpWvqnGkvGczGhS|Gj^fvDUXev}E~VLfHNHLBoAToMaMOURHSwRpf]kClXP|W_BAA`EuzsBd`ouNqzjvEql}sLzKCnwmli`pH^sU?yejQodsIYoJYI_U|gtKEstwQ{If_p?tcj{]zRt_XNNwh|Loh|O_wRnpg@FA|lFeRgjU_gq{opy]Co|XiojXEHknHrkC}ZQMa{ldFVhf|_`rLuwtlmXI_[otl?f[QeskJJdLZ~v@WytEPa@CS`F`O~lBvgCd?[^`Dowf{nnWU|lPXkb`}sOa}gIOhNTZl@dIo{Iy@^eHqGTpFVYyth]rXN}GxPZM|sAGGufgP|cuqgWWFY{db~W{p]y}KwALIjOdGCHzRKOBcSCAmO[qM}idajbtWLaWLJDUaMJewxIOety?~GVyYR}EveeGXPN_G^OZc]RQESBC?lgngXEHkNIYZlYvnoJr[]rsKLdem{wwcz]jCUXAePj^MRzNBUuV]{nZr@dvG~PBGU|NP`AKSZS~K_HRWnIwEx}YrZD}kpO^?UEZBsbOEKGSWcur?nCC]@wxTceAIs{_mSnKV^LpYnh~iIByy`ItO`{_npLVU?{T_hnFykXEOgOi]@G{{Qet{kLfVk}hJn}pRPGJjh`Vw__BOEaLbbM^GERHKuefp]axviU}ELDKSY?OvBPVWRqXJLa~MeT]HyNOrS|jnrZ]@kFjD~?PDRxGWydnsSrA_M[|IDtcLShTfMLjvG_DfSmPQWrv?W_@?Q?nYmNsGgqmyDb_YcWFiv}FdG_JgxWfhWeVdXlA}N[JYYDBiXB|EQH]}gl`?aS?gQJw_Yi_yyFI@k?inlUSpYekE]rMsszTuc{H{h^NtRBnDXOPTeuhykilfuPHHXN|MLYyLO^]edqeYGxJaTwEYRZkUKh[eDwafHDt{~nK}n{SsNWDwV@g^@CoxwBT|dMrvYc`FSSfKfhh}JyiKWX?gAq_DW^EqnqyYiLxYP@XCLJhlsyZPH?ECBNPCHgFda|ttwHHzA[ew|DTeZ|wndh~rVEJ~G|ytNe`[M~cUg|Ix]gzBCKYShuQtioXcphAgQRq[^wA|T{pBGWKsZoWi[Y@GVtiXOblcGYBWmJ^qKc}xdPAhNQdwAGrTGlhh[qAxuICcavjCuWPbF_mzOk[eIJigcNttd~dp@YO[g{bvARJGwQHkLcKKyk?MV~|^J^SLYez^w~]}HX{dXR}pIgGITAoBVhOc@uXsEVOfFJLUVFnqiZTQeoe_GywxWF]xirdysPEesl_lPbQi{HKnJhY_kxXKkp~J[N{VqAOQcJwomLXHlOBZ[z~zzMW{ITl}VGrXN~iu|qfJUbjT??DvyzsFsVrLH]RWCVnSktpt]?T}cpPFdDK}NEdI?Z|Czslibju?vZ{I]gSW_f{@U{esESnQanLeFDEKpz^WDbDXwB?USCg^EF_@o_T^d}Wj{^~[APwXYAzIBOMz]hhgtlrIVYvoA^qXLxdYozX`CaMfZSIe_c[f?zADfDJXsWyzPpTHKxVPIikkPigMKIWQHBTC{b`LiHEMLJxOKOuOXsHDf}v^}Xk[eTR~kvvNKfOZcw[[WmqDlmilds~T@nN|yL@hfVcM@YdezYPTDRPd_Jr@sxaSMmcViXv?_p~y[}xFJ|J`}SO?DhqKO`YEcPHPgQSuHassTOVMCsbDmtSpEMador`ouYmozsClGePY~o]PbF?Pl}f^bG_dZaiYJajSVh]jUX{jTP^bLIsAGofJ~cTgb^kA~ankeoEZyBS|fBDvIIelZxGS@XNWumLKFfUmeXxrqI@b`mLq~VmZqMBu}_ZFKfUgBp|pi{jdv`YVcjIzPdMP~xv|DlcGp@vgqyPPa{IpM_Nqhor}rQ?Qp@?APe{YjuwpxuQQRNbvw[Xgcp]VNhacHAT|iZT`UUNEf|eR{HV[FqNr{mQscJARl^uuCN^CZjgSk[D[MylZnG~_SLyCVnlghM[b~wSP@G]CLwaKPTmj}SH]oKeQkwzyXSGiT]PHfaIkP[tkmk`CO_BfonpRxHdmSmAdsB^L^_{]Mpvzti|||dU[?I~~TSObOn`zpQsrbvrBcxbm_?UfAMSHDh`jehZgggaFvAvTyveujJgw}m[N^ldtIDWaNUGD_~~iHvx|RCrixSU}WQuVgZ}ctCASYd^TsvOYMlELN@DvODtokzVz}{?TK?IjPXczlIppYZf?hIB~unrVirTnSZznCREuapgtMTF`WPREGbSnrnW?~z^vnG{wBFBxzPbbfEp]cAUx@EKmg]~yFnIIIDpT]AooH~C{e}KhxikXDnfXJYvrl`VRWRpLB}OWC{x^JUEW|@{VORJT}aCbRGioznw{Tqf_iygO`StBVH|W?@RpWoNnWJyL^[}kfRr`mQ@K@{jeuAjwWeSZ~cJGxAzMb@Op|wrtCR@vNQlRVB[TjgkTF_fK_NBUXYRkVatBuR{TF|idyXlNV{{[TepdLxn[NQ|pFJmB}lh]efXkhV[s|kxvWx`CoYxB@[lRaRbpZmp`}KiuXrekYkamnDg{czavSYV|xN_i?KjRUTd^Z}]RErgRY@~nXno_[?|yHxVr|GD}McHNBdO[PoyYzaHNFYfDAWNNDoykwzChAXJP~UUw]pwWYrlF{ZcXD_yTjKhC_OPbjRmK~`Dia~~M_c}@~gJrzZVw``fGgJ`AqXBXBaeNBk~GIPC{SyI]ABsNtfVXtQUCkWIA{bDu{BaEm[GYg^jBfYu~E@hwUfdYJqKVuOXD?FpZqGas_P[}Du[pYm[tFL?Te`Mvj^EfoqHNFE~B|Ao^FXkV]ULSGBwfIM|A~xWO^DkanBNdGeCt[OYWxjbPteuxNRT|L_iBCZj~rsmybRNo^p|FeIIMrq^yZ|CEmSdDSOV[hVgKMatf{~FZdO~{iz~mp|odioaHIbQj_[v]PEgS]bB`hm`Vw?FfeiUfVn}nXvyWR}gskCBUGhlvv[qep^{FOek[tnU`zl^@wESMxgY@dtt~VapTXN`@XsvnuWTLQH|TQPipftQxLfb{mVsngEsBe^iqaZzNOVmwTRyDF[TcBRjQFOHw_?ot@MAcSGPE|`RhMJDcliYBmCTGd]UXvogG@B|KhCKH@RNHxEaqiITbQiMJc|cQ~xxkRc|gO}]HRxthxvh{lOh|GP|@~rD]zkq{CuLnq}bRhZSeeMY[rzwjX`hQhTJI|vEgSxCRyxZkxQdixaYw^jTa_JFp@fMonK^ourqnHm^ukzm~kOpE@YEeVU}VpnUQNvRvMB^ZqTjyxfyfAWVbEwMq[gAab?krtaGrWdzF^QpOEPfmMJxhFmZ^@DKMyfwaqVpfoPEQnXWAPmb?bgQj|~BLCGizKZv`COokSFQ[GbeY@|uFZEYz{VJOXx~[tJjT|?[fxTYn[GkvCAJP@KqErXYpPjhBudK?IPISdndb[YYci}uy]^{NIufdT?fv``pOY?Mb[gU?ETmkc?OwIREDqsivn`QZRuJHsRbYuahQfYfaaDY}Z{s|JK?dCWz}|EVzvbJcG]|@o~dAbouVmgiTa[Rns?KOcBbL{{Bt@{_KBy~||ogvdzCS]KnQBEtbiuISjGojye`dn][K]^Rqn`Ytyi}KICeLnDyy[aUez^gpcPd]w~}N}V@k]xwdjw@?Zarfy|I[N?jUq@_PdTpMQhJ~?`GVtEYdm{Bre~]kRTaq~LVoyqdfLBhtfchqE~^vg_aIsWwbus~ymEvDzQMNyw~S`ap`n^VcOJ~iJxNEpFFSJoBBjZKza`GZqPWKRkaOKoQb@FSoONwjd{Y]{A?tPzH{ah@zaWrD?iB~aEsxFzqHtZm[[hbnTn@VabqZsPw[gXZzfaCnJPrGq[sUkxdqYUsoTNrF@LlMBsuKJzfl?AhUBVr[QfxfMuRwpnkCYEVytdfyejLu`CGYDDKdaPjbYOp{kN|?tPMJSosRhtV@hSmYywVZe[R{JNDA^AEpGYpQY}}chRNIjQMVAOmm[el@XVoKs|B_H_xnfna}alAMum~P]HFzeyI]nCn~j?YYtDoeOBqJRx{JsTybVsiDIbC}wtjgsSzkqEkd~KlRY`L^VfhMYxVNqlefEX}eHnoVGNbYClYDA`ADjdj[cWMgnSN~ADw{TfkIa}ogLzuekXKLq[^vcvGDUfWOcSkYI@TfSRiqqQFSnnNLrvEceVUCJxaBT@][Crobk?fqEe~ls^}}?F^vDMbxjSfB@iwZ?sLOquyCHz@EpjhRjdN|WV~{n}HAekqkHsvf}MZ{rn?V_BP?caOYM[po}xmUW}SuW^lUOheGpFFJ^Rh`]EhFu^|NUsaTE?GYKbsZxD`JarQCnYQt@ubcM[U~BEoS~}VqL`PyHxEs_}lbpN`xSPsF?uc{fQ{ppYsnKuRp[`?miCflaXgMEGytu?~}nYGcQ]NiAgnaFSaNBUmtMPkPzv[ewHgRhL}pQh]h^KM`G~`AI?RR|Nn}VbAdo^OYSu~`QQlfpY`jwcj@YsW{xLcJ|[SSJxOweOmNHOF}xqqaxl?xf{~LtILQrS}nbeytRWAcoMIi[WSKbNqMfgAWeaT@grKCxQ]HRltykM@FAtT|rV^AYWs`vlQO}CEq_ZWPlWUG@KmaBpKQA?dqpWmhmEq[dTZsOOFHnheacJGDw|geyGZcWrWb|lEytLQYw]ZWOmHRFGfgMC]O[^xybxGTUfUSOQ|qZ_bKKmddR{FOQ_Br]yGn`oXoNNhJs_G[lTeUHnLN{@UHZKVcN]dvL[xV?A@IBjGO?LyU@{HAN?mAaIRIWsOfHWfD__lETDmhLlKwgeU[AomtK^zKgn?UaYzQ}s[wY]q`WDXZV@wH}OeLA{o{pfnW[gWHqMDg[c^P]v?xdv`|}xG|X@m{OTsGW}vzBJJOGUhfO~oakl`YO`pfzj~jxSgBrX^mooYZkphbSwTfXHye[LrsdsOhxJiS`Y{D`CoQ[cC@GZvC{uxo@utcMCOmE{w@jrWgJ}|AzoxuTZkfz@mAvjHnCHpaL{X?zBOWLlJH]JXnGUIaeSJI[[kfAP~~NFtcgHPu{XB?cljzCtSPKYrxvxHZx[lODhY{gJ{[FZgoEWWx?Cwgy_]tAtFM_jyhWTnaLlHfQGhopoep]vKhS|_c}tx@FflseDvMGifFij@mCuGY[nqrnh]FaBT|uAbaO_u^odzxbeDtSA_F~IL}^AXEl^SYzHguvDAXzp}`@`d?lNMSkeQ]yifD}dwD]^dxOyutWSk~HZ{raW|WtDVnrZZ]kwtxZlSxqD`DkbrIB]XYELzUsqZ{yiUwSu?s}yk@BPwSkhyfrzwngagY~swTpeldfYUAe`IqFGetCQA_DpTJsaSeVaEBacgIRjV}JS^aldMRBTSLr^AvVeNDFXMviAECAzhciUrkeZs^Xt_QINp?eh@{Wdyitsy_UvZzH`yZU|iCr|BUs|ZlYD{^g|g?bl|l_Ve~Op[OMhKDyqqoKIYCXTEOcr|{eo_Aq{xP_{AC|YEi?`hF]tYWLNdkQhUjxOeg`^x~kUrlHjjHIkt@jrylJ]oz@FO}b?[w|fRR]@FY@FN]ZGUMnLdD{vzZKWH`Y_RiaM[eONyHHUhJSZgE}y|x|wcg`jShXzs}Xy}|VC`xd_LnYTL[QInxUGLFm?hmh|BmdyLLeQa{QvcmaUGRx|}jZ{PObJucov^izITfK@X]tGGgn`TwbRr|VQNnnTWQcGViZgrVjOJBoY`jzGcLZZyIkwUSY^|mjhrMY~bnPEqAOmQvlarttRKcN}fU[]enUUe|SiJERuNQNH@qkXFdz~khs]pLUigsKeIvHqbQQJelYaEwJMXD[StnOosbbRSTzJBiGLhhCYi|dw}`YdfNrjOY{MITiO^fGHHvWndTt@OT{yq]WA{eE^M{YOv{eEGVwzIBUxqUXkEDiGj}VC@~`PFJ_[]h|`iXWizeTSGBWO`AuspqFttONdhhacLfb_FNa@AgYkFiosjbLdsJ|eqrPGtMu_GjG?al[oaT{imo]x_rEvRTiBbu]C[K{f@sraNWKMLInIefRNvXgAw|zMpBcp?LWuF_xujbbHGuhAtz^bqMcILantivtoPJKOvm~ttdXb~KqLUBRC?FRxEuB@o@FxlKWCGvNZd}yXhqHFFgQRSEKfvtQk@c~LzTUhU]tMXcc?rQy?NAyKKrWMwWNR|?cLOP{nqZJdHhVgHRjBj{OatI_h]CpOOlDK`AKa`ndJRqhYXA_krS|ksCzonsy{{Rug}TuTVFUZwdDPIryBk~bYv`AHO[koZBxEDoRj|n~zN_QQfvlzo[LpwHDCFWDXQvQRwc~YFVdXLDUQJ|g]`yjeq|@De{ykjkWUiqC`ZNbw}hu~?`@xW_QEQvp`LM]VzNa{KWp[p`a^iAYTNIsgAJU^Y]]_GnYNZZcce@`mHYMJhvG}}`Qx~eYYGVb~iD~JOlb[PIAxI_IBKQJRcUkjsAqr{TwWmwmimUhgpjv@e~OxrGnIenGKakOIayAsVL_~P}CmbANDJwsLTNSFeejxbcOY^BIk}L[WCsw@YPIUnwdxhdLCkVSfaGF`kiViZSdoOLcFMa[fA|PrDy]VNC}aoZf{tkT|V`EioJ^LXBEOF[gOKMxhkBDVqwb]~J`L^JLdkVx[|loW]AZF~Y@i?abvis|K`DitvZJBulG^pfhxr~iEy_`qgIU@cKhZToGz]IQll{KXEJ[GIGXsf?|@VVqeq`o@Dzc?iGveHzSYWW}HmSF~FiOhExvYqIf{eyzIigfrI~H`]~WVME_CeHVjPfFG?RFn@yyjw]wGdXUHUgyrTUV_g}ZWPGDBdwu^ZgZcKH|^EY}~h|veZeDpXarXYUBaLftQj^zKS@NMRe||WwSt{VDtWYUwPH}YIDrfHo[auz[pAgAGkIMkBsc}]JldYyuOcaZpnwJtueKRNefSChpVCxR?jXgqwbgPCHiEmcnKBgA^`TN|fLaH~Iz^yesbH@[pWqreLl]g^[fWaNinlWK^yArQUcEITeLBx~DrZPZamjqHrDp|s_kg@MSYflWEILl_G}xvOJ?T{GZiGHOBBPHgQKoEbKmUt[UFdQHhygQhColwGqeha@yCHUOaOT{H_S@}]hNfEZ[lFeCYhlgQzS]IVdUOfKFjFTglGe[lRQHB[QEx}A@GyXH@Gj|wduLebFNdMDU_pVxaOSxN|UuWTy{vXbyF|p~_OJXsmXS]xsUJNR`SNTxqflkdLDHf`eDjCesncrj{AmQ[nmViZS}Ak{iv{lyalS@^jQDpk{^iNxoGoMzK{o_CroTB?WjWi{^h|nKbqGSVjNgaM`ocuVYFTejca_@AMbSDQ`dMa^ojJpWkqr]`w~?CcTl~Oav@aUI|EnZfPIrRiDCFy`fiBwdikYlmJ{iRqC{p|kTSYXL}@aFnjEdZoF{VRDetOTPgfQHQc~tXxruxvXoBMPpfpBeHwag]K}uuzswHwmHZLnhq^zCHByiAc`wsxcqdiIe{B`TJZLhstRziEWPlhATo{}McqlpOfGBAyb?yegPvFz[YOncyxrwsEdvIc~FTW[|MdPMMFxVFceWDgdtMzkLJ`xedpHKmmlBiI[QJjxnzMaPvwPkf^Cvtq^UUEqTdGeqx`f[CA{sXAECl@^^rnvc|MPRJSuwD{EPTWh[@UIGrWoCmkY~RpULJFUQLZZUwPfOq?QB|Ft~PaLg^RIRvWE?qhtuMMMaoSz{bRSbhgCJuXzUR~~l?_KM{vwCGYx}TEPvOokWVmBzMVZBEFHKCX~_mF~UojccJTW}}WPQ@odK|O|qRSUajYg{TtLEBtvdDitAXBNYHmJSjFCWwaCvXHKADYs|[rs}iz_wnjujhAwcysHmB?c~~AnNXxvwuLw}jBA@rMe|ZPCKM{jcl?~BHDdqp}{GohSIcFPRFeYE?~p]qCAxhlKTt@VCTZU}QHV~`cme_hPOgUMiLHWAXtIT`?O}oEoMYIn^PoPcyWtKL{lVWyEZOngq?vYxrXkiB?}~pYAc?FhjjUuYGKiMILBGDCw@x]z~O[Xg|Fy}Qmvq?lRElnYkAPQDSIlXmqHuRs_PohxqgzgegxrAuEmugVlRkqUPFte}ewUdr|suJgr[kgygVPXKWfTqJyFbBKOAj@Ew??TWihbuUaL[wslImc^^Zpr{l??wGopYByMjJNwN~FLWRCx{IwfSHjsYUzVtCbrSYMMg]oTx@xNZUbjHcWdtxus|{OQnllkJvCMzdzlaXRZOAHshOQkvSVhRuXTHGdNDXEXp`@HPrJMBV?@`iYyrUzaBWr{HATsl?lBKjPkJlLp_{vtOunakU[yEbv@dWYppOPHZFiOir^LwWA[h_FKXXurvMn?]bZAU_ZzrUrJolobwPn{MsHEx}wjUSEqM[{LLIFM|uhqkqtj|@v^pM?H|E]YuYaFu?BZPYQhmEhEKLVgocjafwFI|FkqgEcpKZJU]UH^H~R?d_SIVBrKCCg[vylordkdfHPl^?^y}PBUrbmDZ}TYC`HyzlkLYY@^wRONaVP{h^RMuhzCb^G_~gOThsKLHzUhtchHtN_D@yyYe@JRLvLWPinAZcqx|ov]u]|oXkWTxEcK~InKtVcwy~@fE`vLpC_pXpQj|ZHpR@_wW]xSt}bNtj[f]TAdBaSZDhrWBfjYUust~hnvYF|BHwG{dhTxIXPgS~gi|LuNRVhZ[diGqg[pLN`M|xprnXcU}iDtedbCDJ_kwggnrfK|IQ[{qy[JrxvsAQsV]dKiY?mI^G]SfSCvy~NwWGKwj|QAI@Zto}uCM{OUnW_ACsrTtcpDCF^WuUfuorKZvKdVmP@Iqxokqx{~`?Poklrn`gfPS]jxPNxbmKpvxlM`uIxtzw@ciDt@Y~]f{KMYE?JPyYZoDq]mUex`WVXLzzQ@_oZc[toACkUKMKAB?VMvr{e^eo?gVmj@fv@t|tBWOIcNB_?aOnOxbXDOpXRO~czilPPZayg{zEmXWQ@YD^tYFf{KWPjSvMogVTWy~slVYlxD^KR`}~Zyntw}kRaPAsDWeL~xAdMmA|NNihZ[Ws?ftsJKkznULXykZvPvieytArselhSsLy_^AmlUu~SU_QiW?CVcrwoFFVKQlhJtbjkyhTN_SY~jlNSuqH{@|}JfTTkRLSaahsjxCOlqua~QsDehOgRv`oOOBJHdImWUhPCmMduRrTPNvVEruITLLyasMVEckMXdGAE?Cw}mK}~R[sLyBEqF]WgL`sLZpm_G_WubcLz?OgxplyrTZOYtiNnFV@TtYDzyDqkyXLl|XVP`MfJ[AD`_MQ[EAJpbzhNk?hyv?G_fi}}u`CtPonVF]dVEhw|WplagdnYdVn~NOyYDUmS?GOmVnBxFtidB_L_wlslBN@jb~MfCoy[VoyTk{EODehDI`bUE`IsW?{dm{G]aD^QbbAF[qLznbDqBrDSMiOYVkOVm^}Hp{JDlGpQOmcLZF}~rjKdHnkf[c]|[Ap^rpcthtEanx^aDjvql}qsV?rKj|AG`S_FSRWx_u{hLCkAhaYVh`TnNUnS?dIfLHQYDGUOWynMDsUxwhPY}KjUsglEeOyyPd_wa|i`aAGwAQlObHviYg~BOghupZXCA~opH@sDB?Vfo`iuB@@Tr{~Xz}rAiDu?SdSsCDeJEIu?P?[xqjKql`WNUbdmianA`cDt_EfUI]^kt@fKAlVKTRPfBBOm@kI?|tu`G}DdaddloRVoIECh`Rgg}KY@hDl?sE`pmVPFMtZ?xHLSnMoZSYnaWS?LRkzNq{sdlAlC@qu`NTZ@LrSPq}HlFjHRhAwdFcSbSsrTEVbRYs[YVYeW@llWI^Nfulk@R}iBNyjko}ncC@VuJBBghl`lKpVgyiFvaeeS?RkooC@~MORJIwitjnbyRvsjy^[ZwoZuOZZ{zSUV]]ASEPHd}}ztsjdfaABiWp?Im{PsURJVUHdudTQT_UzhaB@MMzn`}xzk}ovXMOFMG@zpFwQ]PWw@{Vw`wUlm?[uoe[UaNvOvIcd@BTC?ckpAR^QicPENZiw|GKkdmQVA}Ve]flzBFPR@}@QKSJX@RCfxMvMtA}LPWn~aJbywmi_]neCf_Qg{IfiupOZ|gWTeWtfDq{Ih^KUpSazj[ZAZoCX{XyiIqoYIMrFtSGp^^|sCYDIYADkVEllYRoriKMfqJlWT|DfJyEZlx_`z|VGnfnneIwBjIklpQoEzbWOaU|EB}xIfJBLrygCxVx}qWFq[qOkxUMp~bMPJKogyEPWIocwBpZQ}mpwscef]CJJak_pLIGwvH@ui]uCf?{}RAhwEthR_AL}QJZkqpe~AMyALQYEM~HRe@q[EC?MKWoxC^gQuKT[rnYQmTHIcRGI{gxYya?vcEniPxLtwmeBOp|Jx{nwS]@lXEKgzTDzOO{WbgrljmbWBqfRxNnEawTta^rAHUrBR]^mEwjWnLfNv[Djxyn|d?LZ^a@voiFI`riruNydkdJoWFfF`JhCYZJIraPGwp~_XU?VnI}XbeaSrsMtHZNpmJO?poXQpxbMTeAB[TDt~TNbATykbD^CEVb{Zf}oYeSiXqD]vdCR_{oHOcqYFNgR]bDMGuLl^DbqtRVRyaOvb~xp~{[c`OvgzuR`}XpllV|AuXp|XS@XzTjDGhxUW]LY[~[am]iniv`jowt_hGSXhImCCoo~tqbsiRHpywfRKgZdikeCiLAxQ_Vy][@`sIsAB@[woVsURJbU{t~BHLyaX[L{yB_oLYQLDNWgIwzf^bjroqwShcc_B]Jjk?UhGIaGsi_@Qu~bXkXB]CEu~TkqxkhVTTUxVgluZpIH@OAMh^ALlWxqKgfOuN?Te@qazzjL}GXnfcEVQ^vcOJJLyLW]ORhJ}A`WezMbBi`A^@NVFul~^BbRmZ`gUgPUXYHNDn|DxIswWJr|zrJII_JNtyITAjemLRpvAharXsW@fmuan_g?j?~YmD}fW~qipZ{bpggBrQdPl?MKO`Dlu{dR[YQKN]VjkkigTydggP@P?JekB?cwQkz^|iuf@NWF{UnJfqaSONjTGcbkkxzFmatdAVvPGduLMS@||Au^t?wPityIy]|o[VM~U]}IOg[pZg|l~WkAzQi{NLus^Mi^XNXGfcR|rZ]ITWjR``KrSgM{t?f@GAwsPeJBWVxhOaqwWIRskI`g{W}[^[SfdX~SvDEJu@MPz|CvISfyURfIzfdv[XrNPtBrKt_SuD[ONvFJ@T^mOdGSViKjKghPUqQMTzdRaKNSy~dVErj]sJzIoxxNZmfBfWmhvYuVfRZZqC~PVfp?ygxQW~IJ@zIHVfpM`F]wpLTPIJqDn]~^TLE|DnrClLh]I]q_oLTYSSmKLvOwKHHylHb~ny}bciVgnkOND[Xkg?[T|gQIEq_[YpO]ObC`lbGOmc^tZ_svSt[HCrsUzUyUoZD@V]OwDFjpbur?A[SPHVaeNANCXa`Dil]_|S?PAHnBSYfRrrmNOz`Kl`ruKmAhPS^l?tqsVE}LXSzFoZOQpfYwMfN^_ckalsSgaso|ww|dVRYg|TYL_F{InR^[FmVFcV`tCfuoZa[IYCgYzL?QULnKoZcFvumg`oecuzoSXqyGPU?sdXdW_oakSGgF}itP[SAPjhkfaxmUumi}ooES_F?vpxGAMbNRVDBvYnHvUZT@`LZ?SHvpNjPeBCtnEFvj^aLhWNt_Ly?SL`yinmVtxm]l{J|@ot?x?dpGv@@siYPhtyiaRS@_rcKgjy_nukhkH[VywVuVLudBt}Kme}wbWVD@JVy~KzBszzVX~SOWFdvVjPmFPiTMN_fW~ox^?@|y]DPH]tMUnhkqFirLuSCARV@qzQsfrvnfjZOtJdvZ@qq~caQDlgzzL^wwoIj~nHoA`YsRx~MQhG?^PN}qlBvCORJh?URQfCM~qcCT`cleK^[Fhhm|JE|TnS_psNIh~?r}v^pEeNnr]He@r@pc@UFv^|kA|ECoG{bILKJmRr~sbEFuKHbJPHeo|ZmdzDZSLBQtw^HgoIBtNfdxaXbc^Vezpxnbb[QNydB?xtFKgJ[RwBLg_z@]^[mMYxNypkHfOGZRJfX`reZ`NY[btYj?nwFT`sk~}Gv[kPo@mRC{MDw_@CYU`CnIkyXG^EL?AzNr[^DZJkbg~zKobCRYPTC{^dmBIh~nrIigB^hcJdPxhLHHOfWv{Hyy?gsD{tR|QQXA]MBjUzlaHb}wE}CB~}W|cohP[sOVulXPf_|}guwP{R_PLucEtzi|AbypTEOXNliQHaukyVUetm~FZa{eBPXOGDPehPi_yU^R[PVrcambbPRMoxcUN@[eCIEQwA|PT_apBJS|q]L_@kWL{i_M_Fjz`{~cjpPBa{lBVTyK^ImxvmumJJxe_H{Tc?jaIQtVts]gaVa@xenfAuS^vZr[{WRTpFVlS[B~qMhT}NEtmXsYOwLbVG}gOdqs_Ulxwngf}nezfvYb@eHQ[ntkAAHWI_Y_gdyGqbYziSQUXz~f}nVpZTzVSUTp~^wy~EK^IjcKsMwjvTO~?IYz}R`taFXtqhcgmB{E{hl]]jhW?bARkqVreyM?VPq|gnkEU^k~syf?zATqxra}ysbe|RMhz}{jlbjcDc_oyVV[|~FpRhjz|mPL]Cr{VSQhIucWuJTgioJ_z?VdXtmaHSjKBWmeHDjzKH~TT`CtqTTGNgDOrSBjMq~DikZQd_x^}FYz~JojxJeWGxb^GHd`PRpvpE]~HyeSqfdMlPYQ^gQTgv}{W~WHHRBG_ETTInUfSjpraUMvLacI}q?m~{zpvUwkAfDedl[ApvBIaw@SdpbiUGOqDd[ZbDyM^SJ{RXyEl^gRQn|mLZayNVqWJWodcRXXqgrPqOj?~}_y?Lsyj~uMlE}G~xmCU|_QyyqwEnvPOYXc}BmVrumJBLUpkg^WsIjhBokUR@I^nZaOoDlOORl_QhftZY|O]{cVNF]Qx}GmxAPP{ssPFPbZlRRqjCkeRA}XNSMHrCOR@pB}tlvmhTfjLzSvyDl?JSeh@dcEHVg]sd[DFjLQFvOhh[ApjCSRHcRk?rX|cgIDuWd`]wS}nrZjtkMuiLM?XErdhMbPU^rjIIcAJZWvFLp[mDs}iEbpRsyTcIHpOliCAfgNcF^hCwOVBB?DkLfn}?pCSlExkaiVpxjFD~hWaIjyDEDk~pTkvjOqVvQAUekr`wQZ|wjWNfdprq{TuZ_qzijnNCP@jOakaBhK?OyD|iD^dZ`i?CjhIbjZPv_wCnRz~zLz]ZKVcOrRn[gFe?qp{FWQyRj]ypjBp?@Yd~@hom|KvTzXLZiTaS?Z`RAeVmJK~ndB`HZX}|Ne{emRbrlcqy`cIBG~yInRTNPN]j[Tf|[dpuVgY[ob[|rN}zG]clI@sBhCtvvllKUtbemViTuoO@ViINEvIWN}Kwq@cMKScUsNFVa^gYCoesu^Jx}Y~QwbP?]}VZ`~MRJlpMPqksiQ~xpLa{vh}kG`VpTHrsI]LJyr[WfhL@Vav_SkOiRtLBIW_pcF`_bJRlczaGIIjEgaA`|sXV^Od}qLtTSNMYEMFQ@FULinGMIiLUzdPZtZzJsq~xwjxAhuDJyX_jy]ZH`VHlgYCmgZlNIcDCKFzD~mCahRID}xeb`eb@lEyL?TFljfDWa]NdpliDi{indU[reu^d?RvTt_VlKL_[XNdqk{s~@??^Cpyk`I@bHRrpj@?bPEjnWiisQdbLLheIMgk^Ql[JhecDtBQwnvbn_pn`~fKnFWCOsWjngHnFBaPR_NDBGVdwek@G?P`R^ut|V]JKOD?_sDYTCso{xlg]@HAVdAdAxTnSHvzhjFLNWOl``G`vJ_kRkrFQY_Ir?WOLPxmPiNDHsOtJB]dc`jO{J?}t@CEohsVwjbl_G?W`lt@vW@e|CtPHC_MDyzSfQNnKYrFP_Hwv[Q~QSpM@BjqOKeGbdpbuZuGnvb@[ZB~bgrK`xn`buFRwgt|fVWldqfbC|IEzPNkVXZ`n@pCbS}FduvoIW`v``B|TZOhmvYEUbHu?fFBJYoHEuo}pshjwoBuYMDUtydZP[GZVdq|tAcozZBYQWr~BZEGh}pi@AK^_AIHLK^|UiqHlUtW`yg[MHTBHORd~Kfxg`|ZNcPOhY@dov@JFeQpmrygjkRcfIXkj`eQuVwIW}nrVX?a}]xiV`rPzdOx~k?iYpP[QtablrEyrcWERSh}qPB~TZ[H]{`}B[btKuCMzVBmqrtoFrRsu{^zcXord~_v?yni`C_PzjHyFudyFJQK`eo[o[LVeGPIQy~fRhkLSkTi?nPiQ?{sDz~hxaPvb]ASYXJQHtTa[`sZBwBYZ`tWetwQyaX[~ySQr[^_G|kWxApA[bDxqMbvkJ~tewT@]NwEz^fChVroBIOo]^@]x`QNLlWSrHFFWIMBRGejme|xL}}HBPRjzwNnSzsUUhCYaKlAkoL}Wfs{TXl]MHZkJSVbjfF{kSaTyqkDvUwjcI`vzKbOV?gDWaI@iaYBf^RCkUV^WVYJxKHtPIld{pzBItnntU{ggNNrWJVCLDBYNpQQT|ZcnusJuVRPxdH_SSZTByg@sEMQyFuWULV]VQKe~WP^d{OijhJD{xHgcKzFuTyTD|]@Du`qOa_jvVVdBTPUQd_JH}W^ft{NJhgk{qBdYI`ly@FhqLAVKwu@}rSjHwC{TGD_x`p@vWDDwOLoZARF|weimwhPuPdFTtAq`^QFOUOmaJp[koA}X}VuP@pDx`@itA|t}uHn}UZTUYlaGtSBZl?JFbZX}o_^}mTw]eGpDvKIG@MMhPobynipdTfc?jRWNox}`{xwTt[?Si{mOICsYszBG~g_Alfngi|vnGxaP^YX{gkrt`ztJRN{^CoA?Az}]qlqQD~~_P_zHLKQsGVK_qkR|z{dElclq[y@cB@lEO~MvMFalwUYIktTwlPBXSr{[BeaFuOJbWi_pdgk^~TpGeotfHHFQGp?JEj@lktJG?J|JW_eHmVfXsszRycKBHb|IFL?^WHO}uZhUGIXAvBvfr?Akf|Dlr?gVZbBodVA~vfm{pRp^iHWaDEZGIbMNFhbYlpa~RHbp[aOL[PMZaPCIjYl}hjaAdmdOrOngxNQZ[UZSH^QMKxYCHEv|knluXg?alPiAibi`HZhuejpPUvi~{lit|Qk^aMvJ~JUs~EvarlulTOc[FB|xpxqnWqgxSGhDHrgMidUtooQbD@YPTCoN`fF?oNUk^lJXLWZnb{ibTpvUfQJvXJAW?_W}oJpMcYC]WrAdhSAdlPfkppKZ@UHsaClz{pcyNW|R_n~{tmrV_wfBXk}?p~ArVXXD_lP]{Ux@IHX{VJ]}BQGR{PDq[WezOVMdV@ELuSQAlj~cdyahdpqei_FOk@ib?EiNnjzo?HHbodZKPA?L~o`ZX^Bp{nKhNOxD}eqvAvCs~v^fgVtSJlQt^NdhvM_rKQMQbidg[FC@rsMuE`kmCd@nzBKaqWQAxuTv~j@lT[L|xlAlrZY|TN_LHRVtjadyaEDv|P@|CcBuF_nzjZhSDEDCgwsfFEr^i{G`anWr~u|lzI~kLziaRiO_QZ?INyxrRv^`JpRWBqdwTcKjRqeWOsKckqq_rYOEXBk`igTNAPQoxQayagESRqMDRP|xwMISbCPpHeedDLI_wPud`wPMxzILRzkzqKJCtM{Q`Eo[RaUyGl[VPfpuuXXfe|egb}@lNzA~TwnMSWLpft|uuxzXI@lGA|N~UPzhHF}@`Z}SRkJ@oguZKIAVlGhb^lBjAxxdmX?Q}cDT@uLEwgckNIduHs`dGlTCIAeBzsdNS`OVinxZ?xbrNBHY]|yFyYNZd[PU^oKwYTvqNjsRSzARVoSI}_hSnTxrAuZMtLfMFlRSd}giSGBjv|NOkzURzKWhr@VDiuIiEgtWpVWtZECALpyjB{QZwM]UaBXbdncAHuGPFs@FxNQN_@sHjr`PjH}up[LZheMsMy}lkiKPHpS[UALPBc?OHU`yfxhzZ@vMui[@awGXX?]XW~U^fxBPlkQ]LMF^Q`^om~zX^oem`Fo]sWWbTD_MD[eZzShzP[Mn~N_M}h[]oaWkyhgBN`eM{x_qh_OtnwV?fVy~zfI[I?lecjfEIS|A@Ndb`W{AZ}}ggi_[KwNg_jqH^_Cy}YhBXvd_DxyL_NLZZY}J^DzcCUl?]H^E|zsvlg{YNNPhVns``dMVfbBXk[[i{gaUV{MFFd_jmCyuzpYZkp`BEZ`tn}RvclJBQMdBqHtZEpe}j`VS{]r]O]RczPbx_qUyTla@jGkBIasJdeNdGvW}|bEjvVq^GyC{zzYMbncTrAXz@[V~qsD`bq|TQfhCYFCKWM`wAAgBefz[WOMiawIESi]aJF]iu~Snc~WgHjEjlnG]@xqe^HMygj@wJiF?l]S?Z`?Muz]qGwBTBQ|U^SJl?]OTbL|bWOmuJv^kRFZwPbqWBp^cV{NMj_?_FKG_pMqCAEu}ClEWpWhx~rkyRdhDyYd?V}}SplyS[zAIOmN{u{fvJnOdEqCCavcf}Zvx~KegUN}Qc?GMYr{ZDr]Vv?fieKsWcDTgw`]csdli@P}tm_QxVm{uROUC{NBKvKEMJkrkoh~]xsedXrHcUycufPBScwShW^pcR{}c_wWwJwv?pZ^l]}uVUGDHmHXyalHgiPvsZbHq|FmyUmoY[eZf~|HdEb`[u{nCZFzc{Mo|'"
+,...']charCodeAtUinyxpf',"for(;e<127296;c[e++]=p-=128,A=A?p-A&&A:(p==34|p==39|p==96)&&p)for(p=1;p<128;y=f.map((n,x)=>(U=r[n]*2+1,U=Math.log(U/(h-U)),t-=a[x]*U,U/1000)),t=~-h/(1+Math.exp(t))|1,i=o%h<t,o=o%h+(i?t:h-t)*(o>>17)-!i*t,f.map((n,x)=>(U=r[n]+=(i*h/2-r[n]<<13)/((C[n]+=C[n]<5)+1/50)>>13,a[x]+=y[x]*(i-t/h))),p=p*2+i)for(f='0102021032104310541064206520654109753209872'.split(t=0).map((n,x)=>(U=0,[...n].map((n,x)=>(U=U*997+(c[e-n]|0)|0)),h*32-1&U*997+p+!!A*129)*12+x);o<h*32;o=o*64|M.charCodeAt(d++)&63);for(C=new TextDecoder().decode(new Uint8Array(c));r=/[\0-	-@^~]/.exec(C);)with(C.split(r))C=join(shift());return C")([],[],1<<17,[0,0,0,0,0,0,0,0,0,0,0,0],new Uint16Array(51e6).fill(1<<15),new Uint8Array(51e6),0,0,0,0))</script><style>@font-face {
+        font-family: "Bebas Neue";
+        src: url("fonts/BebasNeue-Regular.woff2");
+        src:
+          url("fonts/BebasNeue-Regular.eot?#iefix") format("embedded-opentype"),
+          url("fonts/BebasNeue-Regular.woff2") format("woff2");
+      }
+      body {
+        font-family: "Bebas Neue", sans-serif;
+        width: 100vw;
+        height: 100vh;
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(0, 0, 0);
+      }
+      h1 {
+        font-size: 3em;
+      }
+      .slide {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        z-index: 5;
+      }
+      #webgl-canvas {
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 1;
+      }
+      #transition-canvas {
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 2;
+      }
+      input[type="button"] {
+        background-color: #000;
+        color: #fff;
+        border: 1px solid #4b4b4b;
+        padding: 0.5em;
+        margin: 1px;
+        cursor: pointer;
+      }
+      input[type="button"]:disabled {
+        background-color: #000;
+        color: #888;
+        border: 1px solid #3a3a3a;
+        padding: 0.5em;
+        margin: 1px;
+      }
+      .color-inputs input[type="button"] {
+        padding: 0.5em;
+        margin: 1px;
+        width: 1.5em;
+        height: 1.5em;
+      }
+      button {
+        background-color: #000;
+        color: #fff;
+        border: 1px solid #4b4b4b;
+        padding: 0.5em;
+        margin: 1px;
+      }
+      fieldset {
+        border: 1px solid #56fdfd;
+        background: #000a;
+      }
+      legend {
+        border: 1px solid #56fdfd;
+        background: #000a;
+      }
+      .hidden {
+        display: none !important;
+      }
+      #text {
+        height: max(3vw, 3vh);
+        width: 80%;
+        transform: skew(-15deg) translate(0px, min(-6vh, -6vw));
+        z-index: 5;
+      }
+      #vignette {
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 6;
+        width: 100vw;
+        height: 100vh;
+        mix-blend-mode: overlay;
+      }
+      #info {
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 7;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #f00;
+        text-shadow:
+          0 0 3px #f00,
+          0 0 7px #f00;
+        font-size: 3em;
+        animation: 10s infinite hue-rotation-fast;
+        cursor: pointer;
+      }
+      #credits {
+        color: #fff;
+        text-align: center;
+        letter-spacing: 0.1em;
+      }
+      #credits a {
+        color: rgb(204, 148, 7);
+      }
+      h3 {
+        color: rgb(204, 148, 7);
+      }
+      .intro-slide {
+        width: 60%;
+        font-family: "Bebas Neue";
+        font-size: 7em;
+        color: #ffffff;
+        text-align: center;
+        line-height: 0.8em;
+        letter-spacing: 0.1em;
+        transform: skewX(-10deg);
+      }
+      .info-item {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1em;
+        color: #fff;
+        padding: 1em;
+        border: 2px solid #0b2a2e;
+        background-color: #041a22;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        box-shadow: 0px 1px 2px #000000;
+      }
+      .info-item div {
+        padding: 0.5em;
+      }
+      .info-item label {
+        margin-left: 1ch;
+        color: #f00;
+        text-shadow: 0px 0px 8px #f00;
+      }
+      .info-item button {
+        width: 100%;
+        font-size: 2em;
+        background-color: #01353c;
+        color: #08effa;
+        padding: 0.5em 1em 0.5em 1em;
+        margin-top: 0.5em;
+        border: 1px solid #ffffff36;
+        text-shadow: 0px 0px 8px #ffffff36;
+        cursor: pointer;
+        animation: 10s infinite hue-rotation-fast;
+      }
+      .fade-in {
+        animation: 2s ease-in-out 0s fade-in;
+      }
+      .fade-out {
+        animation: 5s ease-in-out 0s fade-out forwards;
+      }
+      .fade-in-fast {
+        animation: 0.85s ease-in-out 0s fade-in;
+      }
+      .fade-out-fast {
+        animation: 0.85s ease-in-out 0s fade-out forwards;
+      }
+      .slow-blur-in {
+        animation: 3s ease-in-out 0s blur-in;
+      }
+      .blur-out {
+        animation: 4s ease-in-out 0s blur-out forwards;
+      }
+      .blur {
+        animation: 0.85s ease-in-out 0s blur;
+      }
+      .blur-fast {
+        animation: 0.85s ease-in-out 0s blur;
+      }
+      .fade-from-black {
+        animation: 1.7s ease-in-out 0s fade-from-black forwards;
+      }
+      .fade-to-black {
+        animation: 1.7s ease-in-out 0s fade-to-black forwards;
+      }
+      .reset {
+      }
+      #dev-tools {
+        position: absolute;
+        top: 2px;
+        left: 2px;
+        z-index: 10;
+        color: #fff;
+        text-align: left;
+        display: none;
+        font-family: system-ui;
+        font-size: 0.6em;
+      }
+      #dev-tools details {
+        background-color: #0008;
+        padding: 1em;
+        display: block;
+        flex-direction: column;
+        min-width: 200px;
+        max-width: 200px;
+        margin-bottom: 1px;
+      }
+      #dev-tools details[open] {
+        background-color: #000b;
+        padding: 1em;
+        min-width: 300px;
+        max-width: 100%;
+      }
+      #dev-tools details.node[open] {
+        border: 1px solid #008e7a;
+      }
+      #dev-tools details[open] summary {
+        margin-bottom: 1em;
+      }
+      details summary {
+        cursor: pointer;
+      }
+      #debug-current-node-graph {
+        max-height: 70vh;
+        overflow: auto;
+      }
+      #debug-events {
+        position: absolute;
+        right: 2px;
+        top: 2px;
+        z-index: 10;
+        color: #fff;
+        font-size: 0.8em;
+        font-family: system-ui;
+        background-color: rgba(0, 0, 0, 0.8);
+        padding: 0.5em;
+        display: none;
+      }
+      #debug-effects {
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+      }
+      #debug-camera {
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+      }
+      #debug-events-table {
+        max-height: 80vh;
+        width: 500px;
+        overflow-y: scroll;
+      }
+      #debug-events-table tr {
+        color: #888;
+      }
+      #debug-events-table tr.current {
+        color: #fff;
+      }
+      #debug-events-table tr td.remove-event {
+        cursor: pointer;
+        border: 1px px solid #302f2f;
+        background-color: #000;
+        text-align: center;
+        padding: 1px 6px 3px 6px;
+      }
+      #edit-event-dialog {
+        z-index: 100;
+      }
+      ul.node-graph {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        margin-top: 1em;
+      }
+      ul.node-graph table caption {
+        text-align: left;
+        font-weight: 100;
+      }
+      ul.node-graph table {
+        min-width: 400px;
+        width: 100%;
+      }
+      ul.node-graph table th {
+        width: 150px;
+      }
+      table.uniform-matrix td {
+        width: 25%;
+        border: 1px solid #404040;
+        padding: 2px;
+      }
+      hr {
+        border: 1px solid #4d4d4d;
+      }
+      svg {
+        width: 100%;
+        height: 100%;
+      }
+      audio {
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        z-index: 10;
+        width: 100%;
+        opacity: 0.75;
+        display: none;
+      }
+      #progress-bars {
+        color: #fff;
+        font-size: 1.5em;
+        z-index: 1000;
+        display: none;
+        background-color: #000;
+        padding: 1em;
+        border: 1px solid #fff;
+      }
+      @keyframes fade-in-fade-out {
+        0% {
+          opacity: 0;
+        }
+        25% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 1;
+        }
+        75% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 0;
+        }
+      }
+      @keyframes blur-in {
+        0% {
+          opacity: 0;
+          filter: blur(1.5rem);
+        }
+        100% {
+          opacity: 1;
+          filter: blur(0);
+        }
+      }
+      @keyframes blur-out {
+        0% {
+          opacity: 1;
+          filter: blur(0);
+        }
+        99% {
+          opacity: 0;
+          filter: blur(1.5rem);
+        }
+        100% {
+          opacity: 0;
+          filter: blur(1.5rem);
+          display: none;
+        }
+      }
+      @keyframes fade-in {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+      @keyframes fade-out {
+        0% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 0;
+        }
+      }
+      @keyframes fade-from-black {
+        0% {
+          background-color: #0000;
+        }
+        100% {
+          background-color: #0000;
+        }
+      }
+      @keyframes fade-to-black {
+        0% {
+          background-color: #0000;
+        }
+        100% {
+          background-color: #000f;
+        }
+      }
+      @keyframes blur {
+        0% {
+          filter: blur(1px);
+        }
+        50% {
+          filter: blur(10px);
+        }
+        100% {
+          filter: blur(1px);
+        }
+      }
+      @keyframes blur-reverse {
+        5% {
+          filter: blur(1px);
+        }
+        55% {
+          filter: blur(1px);
+        }
+        65% {
+          filter: blur(0);
+        }
+        75% {
+          filter: blur(2px);
+        }
+        95% {
+          filter: blur(0);
+        }
+        100% {
+          filter: blur(2px);
+        }
+      }</style></head><body><canvas id="webgl-canvas" width="480" height="480"></canvas><canvas id="transition-canvas" width="480" height="480"></canvas><div class="slide"><div class="intro-slide"><section id="intro-0" class="hidden"><svg viewBox="0 0 541.86666 270.93333" version="1.1" id="svg1" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg"><defs id="defs1"><filter style="color-interpolation-filters: sRGB" id="filter1" x="-0.0086595218" y="-0.026014871" width="1.017319" height="1.0520297"><feGaussianBlur stdDeviation="1.3334197" id="feGaussianBlur1"/></filter></defs><g id="layer1"><path id="path1" style="display: inline;
+                  fill: none;
+                  fill-opacity: 1;
+                  stroke: #ff0000;
+                  stroke-width: 2.11667;
+                  stroke-linejoin: round;
+                  stroke-dasharray: none;
+                  stroke-opacity: 1;
+                  filter: url(#filter1);" d="m 24.661027,53.749174 -0.0016,0.0016 V 158.73346 l 0.0016,0.001 H 142.6838 l 0.001,-0.001 V 93.120414 l -0.001,-0.0015 H 90.074605 v 26.246456 h 26.383405 v 13.12478 l -0.001,-0.001 H 50.88785 V 79.994084 l 0.0016,0.0015 h 91.79543 l 0.001,-0.0015 v -26.24336 l -0.001,-0.0016 z m 124.584123,0 -0.001,0.0016 V 158.73346 l 0.001,0.001 h 26.22476 l 0.001,-0.001 v -39.36969 l 0.001,10e-4 h 65.56757 l 0.001,-10e-4 v 39.36969 l 0.001,0.001 h 26.22475 l 10e-4,-0.001 v -52.48982 l -10e-4,-0.001 h -26.2232 l -10e-4,0.001 v -6.56497 l 10e-4,0.0021 h 26.22475 l 10e-4,-0.0021 V 53.750724 l -10e-4,-0.0016 z m 124.58413,0 -10e-4,0.0016 V 158.73346 l 10e-4,0.001 h 26.22476 l 0.001,-0.001 v -39.36969 l 10e-4,10e-4 h 65.56706 l 10e-4,-10e-4 v 39.36969 l 10e-4,0.001 h 26.22527 l 10e-4,-0.001 V 53.750724 l -10e-4,-0.0016 z m 124.58361,0 -10e-4,0.0016 v 65.613046 l 10e-4,10e-4 h 45.89694 v 39.36762 l 0.001,0.001 h 26.22476 l 10e-4,-0.001 v -39.36762 h 45.89694 l 10e-4,-10e-4 V 53.750724 l -10e-4,-0.0016 h -26.22217 l -0.001,0.0016 v 39.36969 l -10e-4,-0.0015 H 424.6423 l -10e-4,0.0015 v -39.36969 l -10e-4,-0.0016 z m -222.94091,26.24491 5.1e-4,0.0015 h 65.56758 l 0.001,-0.0015 v 13.12633 l -0.001,-0.0015 h -65.56758 l -5.1e-4,0.0015 z m 124.58361,0 0.001,0.0015 h 65.56912 v 13.12478 l -0.001,-0.0015 h -65.56757 l -10e-4,0.0015 z m -31.24306,85.301766 -58.62484,5.2e-4 v 0.001 52.14721 5.2e-4 h 58.62484 l 0.001,-5.2e-4 v -19.33887 l -0.001,-10e-4 h -13.02608 l -5.1e-4,10e-4 v 6.30194 h -32.56959 l -0.001,0.001 v -26.07696 h 0.001 32.56959 v 6.47867 l 5.1e-4,0.001 h 13.02608 l 0.001,-0.001 v -19.33887 -0.17466 z m 247.5389,0 -58.62588,5.2e-4 -5.2e-4,0.001 v 32.59026 l 5.2e-4,0.001 h 45.5967 10e-4 v 6.52001 l -10e-4,-0.001 h -45.5967 l -10e-4,0.001 v 13.03487 l 10e-4,0.001 h 58.62536 v -0.001 -32.59181 h -45.59773 v -6.52002 h 45.59825 v -13.03486 z m -491.690403,5.2e-4 -0.0016,0.001 c -0.0048,17.38215 0.02168,34.76456 0.03876,52.14669 l 0.0016,0.001 h 13.026079 l 0.0016,-0.001 v -39.10924 l -0.0016,-0.001 h 9.771496 v 6.84506 h 0.0016 13.026078 0.0016 v -6.84506 h 9.771497 l -10e-4,0.001 v 39.10976 l 10e-4,0.001 h 13.026078 l 0.001,-0.001 v -52.14617 l -0.001,-10e-4 H 57.270406 l -0.0016,10e-4 v 3.2582 h -6.513814 v -3.2582 l -0.0016,-10e-4 z m 61.922319,0 v 0.001 52.14721 5.2e-4 h 13.026078 l 10e-4,-5.2e-4 v -19.5554 h 32.569076 0.001 v 19.5554 5.2e-4 h 13.02763 v -5.2e-4 -52.14721 -0.001 z m 61.883564,0 v 0.001 52.14721 5.2e-4 h 13.02763 v -5.2e-4 -19.5554 h 0.001 32.56907 v 19.5554 l 0.001,5.2e-4 h 13.02608 l 0.001,-5.2e-4 v -26.07386 h -0.001 -13.02608 -0.001 V 188.111 h 0.001 13.02608 0.001 v -22.8136 l -0.001,-0.001 z m 123.60589,0 -10e-4,0.001 v 52.14721 l 10e-4,5.2e-4 h 13.02608 l 10e-4,-5.2e-4 v -19.5554 h 32.56907 10e-4 v 19.5554 5.2e-4 h 13.02607 l 0.001,-5.2e-4 V 165.2974 l -0.001,-0.001 h -13.02607 v 0.001 19.5554 h -10e-4 -32.56907 v -19.5554 l -10e-4,-0.001 z m 61.88408,0 v 0.001 52.14721 5.2e-4 h 58.62484 v -5.2e-4 -13.03538 -0.001 h -45.5967 l -0.001,0.001 v -6.52002 h 32.57062 V 184.8528 h -32.57062 v -6.52002 h 0.001 45.5967 v -13.03538 -0.001 z m 61.88511,0 -0.001,0.001 v 52.14721 l 0.001,5.2e-4 h 13.02608 v -5.2e-4 -19.5554 h 0.001 32.56907 v 19.5554 l 0.001,5.2e-4 h 13.02608 l 0.001,-5.2e-4 v -26.07386 h -0.001 -13.02608 -0.001 V 188.111 h 0.001 13.02608 0.001 v -22.8136 l -0.001,-0.001 z M 99.610974,178.3333 H 132.1816 v 6.52002 h -0.001 -32.569069 z m 61.883566,0 h 0.001 32.56907 v 6.52002 h -32.56907 -0.001 z m 247.37353,0 h 0.001 32.56907 v 6.52002 h -32.56907 -0.001 z"/><path id="rect808" style="display: inline;
+                  fill: #ff3300;
+                  stroke: #ff3300;
+                  stroke-width: 1.32299993;
+                  stroke-linejoin: round;
+                  stroke-dasharray: none;
+                  stroke-opacity: 1;
+                  fill-opacity: 0.99719101;" d="m 24.661027,53.749174 -0.0016,0.0016 V 158.73346 l 0.0016,0.001 H 142.6838 l 0.001,-0.001 V 93.120414 l -0.001,-0.0015 H 90.074605 v 26.246456 h 26.383405 v 13.12478 l -0.001,-0.001 H 50.88785 V 79.994084 l 0.0016,0.0015 h 91.79543 l 0.001,-0.0015 v -26.24336 l -0.001,-0.0016 z m 124.584123,0 -0.001,0.0016 V 158.73346 l 0.001,0.001 h 26.22476 l 0.001,-0.001 v -39.36969 l 0.001,10e-4 h 65.56757 l 0.001,-10e-4 v 39.36969 l 0.001,0.001 h 26.22475 l 10e-4,-0.001 v -52.48982 l -10e-4,-0.001 h -26.2232 l -10e-4,0.001 v -6.56497 l 10e-4,0.0021 h 26.22475 l 10e-4,-0.0021 V 53.750724 l -10e-4,-0.0016 z m 124.58413,0 -10e-4,0.0016 V 158.73346 l 10e-4,0.001 h 26.22476 l 0.001,-0.001 v -39.36969 l 10e-4,10e-4 h 65.56706 l 10e-4,-10e-4 v 39.36969 l 10e-4,0.001 h 26.22527 l 10e-4,-0.001 V 53.750724 l -10e-4,-0.0016 z m 124.58361,0 -10e-4,0.0016 v 65.613046 l 10e-4,10e-4 h 45.89694 v 39.36762 l 0.001,0.001 h 26.22476 l 10e-4,-0.001 v -39.36762 h 45.89694 l 10e-4,-10e-4 V 53.750724 l -10e-4,-0.0016 h -26.22217 l -0.001,0.0016 v 39.36969 l -10e-4,-0.0015 H 424.6423 l -10e-4,0.0015 v -39.36969 l -10e-4,-0.0016 z m -222.94091,26.24491 5.1e-4,0.0015 h 65.56758 l 0.001,-0.0015 v 13.12633 l -0.001,-0.0015 h -65.56758 l -5.1e-4,0.0015 z m 124.58361,0 0.001,0.0015 h 65.56912 v 13.12478 l -0.001,-0.0015 h -65.56757 l -10e-4,0.0015 z m -31.24306,85.301766 -58.62484,5.2e-4 v 0.001 52.14721 5.2e-4 h 58.62484 l 0.001,-5.2e-4 v -19.33887 l -0.001,-10e-4 h -13.02608 l -5.1e-4,10e-4 v 6.30194 h -32.56959 l -0.001,0.001 v -26.07696 h 0.001 32.56959 v 6.47867 l 5.1e-4,0.001 h 13.02608 l 0.001,-0.001 v -19.33887 -0.17466 z m 247.5389,0 -58.62588,5.2e-4 -5.2e-4,0.001 v 32.59026 l 5.2e-4,0.001 h 45.5967 10e-4 v 6.52001 l -10e-4,-0.001 h -45.5967 l -10e-4,0.001 v 13.03487 l 10e-4,0.001 h 58.62536 v -0.001 -32.59181 h -45.59773 v -6.52002 h 45.59825 v -13.03486 z m -491.690403,5.2e-4 -0.0016,0.001 c -0.0048,17.38215 0.02168,34.76456 0.03876,52.14669 l 0.0016,0.001 h 13.026079 l 0.0016,-0.001 v -39.10924 l -0.0016,-0.001 h 9.771496 v 6.84506 h 0.0016 13.026078 0.0016 v -6.84506 h 9.771497 l -10e-4,0.001 v 39.10976 l 10e-4,0.001 h 13.026078 l 0.001,-0.001 v -52.14617 l -0.001,-10e-4 H 57.270406 l -0.0016,10e-4 v 3.2582 h -6.513814 v -3.2582 l -0.0016,-10e-4 z m 61.922319,0 v 0.001 52.14721 5.2e-4 h 13.026078 l 10e-4,-5.2e-4 v -19.5554 h 32.569076 0.001 v 19.5554 5.2e-4 h 13.02763 v -5.2e-4 -52.14721 -0.001 z m 61.883564,0 v 0.001 52.14721 5.2e-4 h 13.02763 v -5.2e-4 -19.5554 h 0.001 32.56907 v 19.5554 l 0.001,5.2e-4 h 13.02608 l 0.001,-5.2e-4 v -26.07386 h -0.001 -13.02608 -0.001 V 188.111 h 0.001 13.02608 0.001 v -22.8136 l -0.001,-0.001 z m 123.60589,0 -10e-4,0.001 v 52.14721 l 10e-4,5.2e-4 h 13.02608 l 10e-4,-5.2e-4 v -19.5554 h 32.56907 10e-4 v 19.5554 5.2e-4 h 13.02607 l 0.001,-5.2e-4 V 165.2974 l -0.001,-0.001 h -13.02607 v 0.001 19.5554 h -10e-4 -32.56907 v -19.5554 l -10e-4,-0.001 z m 61.88408,0 v 0.001 52.14721 5.2e-4 h 58.62484 v -5.2e-4 -13.03538 -0.001 h -45.5967 l -0.001,0.001 v -6.52002 h 32.57062 V 184.8528 h -32.57062 v -6.52002 h 0.001 45.5967 v -13.03538 -0.001 z m 61.88511,0 -0.001,0.001 v 52.14721 l 0.001,5.2e-4 h 13.02608 v -5.2e-4 -19.5554 h 0.001 32.56907 v 19.5554 l 0.001,5.2e-4 h 13.02608 l 0.001,-5.2e-4 v -26.07386 h -0.001 -13.02608 -0.001 V 188.111 h 0.001 13.02608 0.001 v -22.8136 l -0.001,-0.001 z M 99.610974,178.3333 H 132.1816 v 6.52002 h -0.001 -32.569069 z m 61.883566,0 h 0.001 32.56907 v 6.52002 h -32.56907 -0.001 z m 247.37353,0 h 0.001 32.56907 v 6.52002 h -32.56907 -0.001 z"/></g></svg></section></div></div><div class="slide"><div class="intro-slide" style="width: 65%"><section id="intro-1" class="hidden"><svg viewBox="0 0 541.86666 270.93333" version="1.1" id="svg1" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg"><defs id="defs1"><filter style="color-interpolation-filters: sRGB" id="filter942" x="-0.0044238132" y="-0.042921882" width="1.0088476" height="1.0858438"><feGaussianBlur stdDeviation="0.48878606" id="feGaussianBlur942"/></filter></defs><g id="layer1"><path id="path942" style="display: inline;
+                  opacity: 0.29639175;
+                  fill: none;
+                  fill-opacity: 1;
+                  stroke: #00ffff;
+                  stroke-width: 2.11667;
+                  stroke-linejoin: round;
+                  stroke-dasharray: none;
+                  stroke-opacity: 1;
+                  filter: url(#filter942);" d="m 18.997623,109.56953 -5.58e-4,5.6e-4 v 51.98686 l 5.58e-4,5.5e-4 h 13.360558 l 5.58e-4,-5.5e-4 v -19.49578 l 10e-4,0.001 h 33.40311 l 5.59e-4,-0.001 v -12.99531 l -5.59e-4,-10e-4 H 32.359858 l -0.001,10e-4 v -6.50046 l 0.001,0.001 h 46.764744 l 0.001,-0.001 v -12.99531 l -0.001,-5.6e-4 z m 63.469354,0 -0.001,5.6e-4 v 51.98686 l 0.001,5.5e-4 h 60.126983 l 5.6e-4,-5.5e-4 v -51.98686 l -5.6e-4,-5.6e-4 z m 63.468793,0 -5.6e-4,5.6e-4 v 51.98686 l 5.6e-4,5.5e-4 h 13.36056 l 5.5e-4,-5.5e-4 v -19.49578 l 0.001,0.001 H 192.701 l 5.5e-4,-0.001 v 19.49578 l 0.001,5.5e-4 h 13.36 l 5.5e-4,-5.5e-4 v -25.99288 l -5.5e-4,-5.5e-4 h -13.35992 l -0.001,5.5e-4 v -3.25051 l 0.001,5.7e-4 h 13.36 l 5.5e-4,-5.7e-4 v -22.74347 l -5.5e-4,-5.6e-4 z m 63.46935,0 -0.001,5.6e-4 v 12.99531 l 0.001,0.001 h 23.38209 v 38.99042 l 0.001,5.5e-4 h 13.35999 l 0.001,-5.5e-4 V 122.5664 h 23.3821 l 0.001,-0.001 v -12.99531 l -0.001,-5.6e-4 z m 63.46881,0 -10e-4,5.6e-4 v 51.98686 l 10e-4,5.5e-4 h 13.36 l 0.001,-5.5e-4 v -19.49578 l 5.6e-4,0.001 h 33.40305 l 0.001,-0.001 v 19.49578 l 5.6e-4,5.5e-4 h 13.36055 l 5.6e-4,-5.5e-4 v -25.99288 l -5.6e-4,-5.5e-4 H 319.6401 l -5.6e-4,5.5e-4 v -3.25051 l 5.6e-4,5.7e-4 h 13.36055 l 5.6e-4,-5.7e-4 v -22.74347 l -5.6e-4,-5.6e-4 z m 63.46879,0 -5.6e-4,5.6e-4 v 51.98686 l 5.6e-4,5.5e-4 h 60.12698 l 0.001,-5.5e-4 v -12.99533 l -0.001,-0.001 h -46.76475 l -10e-4,0.001 v -6.50045 l 10e-4,0.001 h 33.40308 l 5.5e-4,-0.001 v -12.99531 l -5.5e-4,-10e-4 h -33.40308 l -10e-4,10e-4 v -6.50046 l 10e-4,0.001 h 46.76475 l 0.001,-0.001 v -12.99531 l -0.001,-5.6e-4 z m 63.46935,0 -0.001,5.6e-4 v 32.49108 l 0.001,0.001 h 46.76475 l 10e-4,-0.001 v 6.50045 l -10e-4,-0.001 h -46.76475 l -0.001,0.001 v 12.99533 l 0.001,5.5e-4 h 60.12698 l 5.5e-4,-5.5e-4 v -32.49109 l -5.5e-4,-10e-4 h -46.76531 l -5.6e-4,10e-4 v -6.50046 l 5.6e-4,0.001 h 46.76531 l 5.5e-4,-0.001 v -12.99531 l -5.5e-4,-5.6e-4 z m 63.46879,0 -5.5e-4,5.6e-4 v 32.49108 l 5.5e-4,0.001 h 46.76531 l 5.6e-4,-0.001 v 6.50045 l -5.6e-4,-0.001 h -46.76531 l -5.5e-4,0.001 v 12.99533 l 5.5e-4,5.5e-4 h 60.12698 l 5.6e-4,-5.5e-4 v -32.49109 l -5.6e-4,-10e-4 h -46.7653 l -5.6e-4,10e-4 v -6.50046 l 5.6e-4,0.001 h 46.7653 l 5.6e-4,-0.001 v -12.99531 l -5.6e-4,-5.6e-4 z m -367.452766,12.99587 5.62e-4,0.001 h 33.403074 l 0.001,-0.001 v 25.99622 l -0.001,-0.001 H 95.828656 l -5.62e-4,0.001 z m 63.468786,0 0.001,0.001 H 192.701 l 5.5e-4,-0.001 v 6.50046 l -5.5e-4,-10e-4 h -33.40308 l -0.001,10e-4 z m 126.93816,0 5.6e-4,0.001 h 33.40306 l 10e-4,-0.001 v 6.50046 l -10e-4,-10e-4 H 286.2356 l -5.6e-4,10e-4 z"/><path id="path941" style="display: inline;
+                  opacity: 1;
+                  fill: none;
+                  fill-opacity: 0.99719101;
+                  stroke: #00ffff;
+                  stroke-width: 1;
+                  stroke-linejoin: round;
+                  stroke-dasharray: none;
+                  stroke-opacity: 1;" d="m 18.997623,109.56953 -5.58e-4,5.6e-4 v 51.98686 l 5.58e-4,5.5e-4 h 13.360558 l 5.58e-4,-5.5e-4 v -19.49578 l 10e-4,0.001 h 33.40311 l 5.59e-4,-0.001 v -12.99531 l -5.59e-4,-10e-4 H 32.359858 l -0.001,10e-4 v -6.50046 l 0.001,0.001 h 46.764744 l 0.001,-0.001 v -12.99531 l -0.001,-5.6e-4 z m 63.469354,0 -0.001,5.6e-4 v 51.98686 l 0.001,5.5e-4 h 60.126983 l 5.6e-4,-5.5e-4 v -51.98686 l -5.6e-4,-5.6e-4 z m 63.468793,0 -5.6e-4,5.6e-4 v 51.98686 l 5.6e-4,5.5e-4 h 13.36056 l 5.5e-4,-5.5e-4 v -19.49578 l 0.001,0.001 H 192.701 l 5.5e-4,-0.001 v 19.49578 l 0.001,5.5e-4 h 13.36 l 5.5e-4,-5.5e-4 v -25.99288 l -5.5e-4,-5.5e-4 h -13.35992 l -0.001,5.5e-4 v -3.25051 l 0.001,5.7e-4 h 13.36 l 5.5e-4,-5.7e-4 v -22.74347 l -5.5e-4,-5.6e-4 z m 63.46935,0 -0.001,5.6e-4 v 12.99531 l 0.001,0.001 h 23.38209 v 38.99042 l 0.001,5.5e-4 h 13.35999 l 0.001,-5.5e-4 V 122.5664 h 23.3821 l 0.001,-0.001 v -12.99531 l -0.001,-5.6e-4 z m 63.46881,0 -10e-4,5.6e-4 v 51.98686 l 10e-4,5.5e-4 h 13.36 l 0.001,-5.5e-4 v -19.49578 l 5.6e-4,0.001 h 33.40305 l 0.001,-0.001 v 19.49578 l 5.6e-4,5.5e-4 h 13.36055 l 5.6e-4,-5.5e-4 v -25.99288 l -5.6e-4,-5.5e-4 H 319.6401 l -5.6e-4,5.5e-4 v -3.25051 l 5.6e-4,5.7e-4 h 13.36055 l 5.6e-4,-5.7e-4 v -22.74347 l -5.6e-4,-5.6e-4 z m 63.46879,0 -5.6e-4,5.6e-4 v 51.98686 l 5.6e-4,5.5e-4 h 60.12698 l 0.001,-5.5e-4 v -12.99533 l -0.001,-0.001 h -46.76475 l -10e-4,0.001 v -6.50045 l 10e-4,0.001 h 33.40308 l 5.5e-4,-0.001 v -12.99531 l -5.5e-4,-10e-4 h -33.40308 l -10e-4,10e-4 v -6.50046 l 10e-4,0.001 h 46.76475 l 0.001,-0.001 v -12.99531 l -0.001,-5.6e-4 z m 63.46935,0 -0.001,5.6e-4 v 32.49108 l 0.001,0.001 h 46.76475 l 10e-4,-0.001 v 6.50045 l -10e-4,-0.001 h -46.76475 l -0.001,0.001 v 12.99533 l 0.001,5.5e-4 h 60.12698 l 5.5e-4,-5.5e-4 v -32.49109 l -5.5e-4,-10e-4 h -46.76531 l -5.6e-4,10e-4 v -6.50046 l 5.6e-4,0.001 h 46.76531 l 5.5e-4,-0.001 v -12.99531 l -5.5e-4,-5.6e-4 z m 63.46879,0 -5.5e-4,5.6e-4 v 32.49108 l 5.5e-4,0.001 h 46.76531 l 5.6e-4,-0.001 v 6.50045 l -5.6e-4,-0.001 h -46.76531 l -5.5e-4,0.001 v 12.99533 l 5.5e-4,5.5e-4 h 60.12698 l 5.6e-4,-5.5e-4 v -32.49109 l -5.6e-4,-10e-4 h -46.7653 l -5.6e-4,10e-4 v -6.50046 l 5.6e-4,0.001 h 46.7653 l 5.6e-4,-0.001 v -12.99531 l -5.6e-4,-5.6e-4 z m -367.452766,12.99587 5.62e-4,0.001 h 33.403074 l 0.001,-0.001 v 25.99622 l -0.001,-0.001 H 95.828656 l -5.62e-4,0.001 z m 63.468786,0 0.001,0.001 H 192.701 l 5.5e-4,-0.001 v 6.50046 l -5.5e-4,-10e-4 h -33.40308 l -0.001,10e-4 z m 126.93816,0 5.6e-4,0.001 h 33.40306 l 10e-4,-0.001 v 6.50046 l -10e-4,-10e-4 H 286.2356 l -5.6e-4,10e-4 z"/></g></svg></section></div></div><section id="vignette"><canvas id="vignette-canvas" style="width: 100%; height: 100%"></section><div class="slide" id="credits-slide"><section id="credits" class="hidden"><h1>FORTRESS</h1><h3>engine / shaders / music / direction</h3><h2>outron</h2><h3>fractals / shaders / build scripts</h3><h2>seven_dc</h2><br><h3>Bebas Neue font</h3><h2>Ryoichi Tsunekawa</h2><br><div>inspired by Vangelis, <a href="https://www.shadertoy.com/view/cdG3Wd">Xor's shaders</a>, and maybe Quake</div><br><div><a href="https://outron.bandcamp.com">Outron @ Bandcamp</a></div></section></div><section id="info" onclick="play()"><div>CLICK TO START</div></section><details id="dev-tools" open><summary>Debug</summary><div><details open><summary>Timing</summary><div>now: <span id="debug-time"></span></div><div>beat: <span id="debug-beat"></span></div><div>fps: <span id="debug-fps"></span></div><div>delta: <span id="debug-delta"></span></div></details></div><div><details id="debug-effects" open><summary>Effects</summary></details></div><div><details id="debug-nodes"><summary>Current Effect Nodes</summary><div id="debug-current-node-graph"></div></details></div><div><details><summary>Palette</summary><div class="color-inputs"><div><label>Color 1: <span id="color-output-1">#ffe8b8</span></label><div><input id="color-input-1" type="color" value="#ffe8b8" onchange="document.getElementById('color-output-1').textContent=this.value; updateFrame = true;"></div></div><div><label>Color 2:<span id="color-output-2">#457082</span></label><div><input id="color-input-2" type="color" value="#457082" onchange="document.getElementById('color-output-2').textContent=this.value; updateFrame = true;"></div></div><div><label>Color 3:<span id="color-output-3">#306b82</span></label><div><input id="color-input-3" type="color" value="#306b82" onchange="document.getElementById('color-output-3').textContent=this.value; updateFrame = true;"></div></div></div></details></div><div><details><summary>Hide / Show Elements</summary><label for="display-element-id-input">Element ID:</label> <select id="display-element-id-input"><option value="webgl-canvas">Canvas</option><option value="transition-canvas">Transition Canvas</option><option value="title">Demo title</option><option value="vignette">Vignette</option><option value="fader">Fader</option><option value="credits">Credits</option><option value="intro-0">Intro text 0</option><option value="intro-1">Intro text 1</option></select> <label for="display-element-class-input">new class:</label> <select id="display-element-class-input"><option value="reset">reset</option><option value="fade-in">fade in</option><option value="fade-out">fade out</option><option value="fade-in-fast">fast fade in</option><option value="fade-out-fast">fast fade out</option><option value="blur-in">blur in</option><option value="slow-blur-in">slow blur in</option><option value="blur-out">blur out</option><option value="blur">blur</option><option value="blur-fast">blur fast</option><option value="fade-from-white">fade from white</option><option value="fade-to-black">fade to black</option><option value="fade-from-black">fade from black</option></select> <input type="button" onclick="changeElementClass()" value="Change"></details></div><div><details id="debug-camera"><summary>Camera</summary><details id="camera-buttons" open><summary>Select Camera</summary><div id="cameras"><input id="camera-0-button" type="button" value="1" onclick="changeCamera(0)"> <input id="camera-1-button" type="button" value="2" onclick="changeCamera(1)"> <input id="camera-2-button" type="button" value="3" onclick="changeCamera(2)"> <input id="camera-3-button" type="button" value="4" onclick="changeCamera(3)"> <input id="camera-4-button" type="button" value="5" onclick="changeCamera(4)"> <input id="camera-5-button" type="button" value="6" onclick="changeCamera(5)"> <input id="camera-6-button" type="button" value="7" onclick="changeCamera(6)"> <input id="camera-7-button" type="button" value="8" onclick="changeCamera(7)"> <input id="camera-8-button" type="button" value="9" onclick="changeCamera(8)"> <input id="camera-9-button" type="button" value="10" onclick="changeCamera(9)"> <input id="camera-10-button" type="button" value="11" onclick="changeCamera(10)"> <input id="camera-11-button" type="button" value="12" onclick="changeCamera(11)"> <input id="camera-12-button" type="button" value="13" onclick="changeCamera(12)"> <input id="camera-13-button" type="button" value="14" onclick="changeCamera(13)"> <input id="camera-14-button" type="button" value="15" onclick="changeCamera(14)"> <input id="camera-15-button" type="button" value="16" onclick="changeCamera(15)"> <input id="camera-16-button" type="button" value="17" onclick="changeCamera(16)"> <input id="camera-17-button" type="button" value="18" onclick="changeCamera(17)"> <input id="camera-18-button" type="button" value="19" onclick="changeCamera(18)"> <input id="camera-19-button" type="button" value="20" onclick="changeCamera(19)"> <input id="camera-20-button" type="button" value="21" onclick="changeCamera(20)"> <input id="camera-21-button" type="button" value="22" onclick="changeCamera(21)"> <input id="camera-22-button" type="button" value="23" onclick="changeCamera(22)"> <input id="camera-23-button" type="button" value="24" onclick="changeCamera(23)"> <input id="camera-24-button" type="button" value="25" onclick="changeCamera(24)"> <input id="camera-25-button" type="button" value="26" onclick="changeCamera(25)"> <input id="camera-copy-button" type="button" value="copy" onclick="copyCamera()"></div></details><br><label>Focal Length: <span id="focal-length-output"></span></label> <input id="focal-length-input" style="width: 100%" type="range" value="0.05" step="0.001" min="0.001" max="0.2" onchange="updateFrame = true"> <label>Focal Plane: <span id="focal-plane-output"></span></label> <input id="focal-plane-input" style="width: 100%" type="range" value="5" step="0.01" min="0" max="20" onchange="updateFrame = true"> <label>Field of View: <span id="camera-field-of-view-output"></span></label> <input id="camera-field-of-view-input" style="width: 100%" type="range" value="60" step="1" min="10" max="170" onchange="updateFrame = true"> <label>Perspective: <span id="camera-perspective-output"></span></label> <input id="camera-perspective-input" style="width: 100%" type="range" value="1.0" step="0.001" min="0.01" max="15.0" onchange="updateFrame = true"> <label>Rotation: <span id="camera-rotation-output"></span></label> <input id="camera-rotation-input" style="width: 100%" type="range" value="0.0" step="0.0001" min="-1.0" max="1.0" onchange="updateFrame = true"><hr><label>X: <span id="camera-x-output"></span></label> <input id="camera-x-input" style="width: 100%" type="range" value="0" step="0.0001" min="-40" max="40" onchange="updateFrame = true"> <label>Y: <span id="camera-y-output"></span></label> <input id="camera-y-input" style="width: 100%" type="range" value="0" step="0.0001" min="-30" max="30" onchange="updateFrame = true"> <label>Z: <span id="camera-z-output"></span></label> <input id="camera-z-input" style="width: 100%" type="range" value="-8" step="0.0001" min="-40" max="40" onchange="updateFrame = true"><hr><label>Target X: <span id="camera-target-x-output"></span></label> <input id="camera-target-x-input" style="width: 100%" type="range" value="0" step="0.0001" min="-40" max="40" onchange="updateFrame = true"> <label>Target Y: <span id="camera-target-y-output"></span></label> <input id="camera-target-y-input" style="width: 100%" type="range" value="0" step="0.0001" min="-40" max="40" onchange="updateFrame = true"> <label>Target Z: <span id="camera-target-z-output"></span></label> <input id="camera-target-z-input" style="width: 100%" type="range" value="0" step="0.0001" min="-40" max="40" onchange="updateFrame = true"></details></div><div><details id="debug-color-grading"><summary>Color Grading</summary><div><label><input id="tweak-color-grading-input" type="checkbox"> Tweak</label></div><div><label>Exposure: <span id="exposure-output">1.0</span></label> <input id="exposure-input" style="width: 100%" type="range" value="1.0" step="0.01" min="0.0" max="5.0" onchange="updateFrame = true"></div><div><label>Gamma: <span id="gamma-output">1.29</span></label> <input id="gamma-input" style="width: 100%" type="range" value="1.29" step="0.01" min="0.0" max="5.0" onchange="updateFrame = true"></div><div><label>Saturation: <span id="saturation-output">1.0</span></label> <input id="saturation-input" style="width: 100%" type="range" value="1.0" step="0.01" min="0.0" max="5.0" onchange="updateFrame = true"></div><div><label>Midpoint: <span id="midpoint-output">0.5</span></label> <input id="midpoint-input" style="width: 100%" type="range" list="midpoint-values" value="0.5" step="0.01" min="0.0" max="1.0" onchange="updateFrame = true"><datalist id="midpoint-values"><option value="0.0" label="0"></option><option value="0.5" label="0.5"></option><option value="1.0" label="1"></option></datalist></div><div><label>Contrast: <span id="contrast-output">1.0</span></label> <input id="contrast-input" style="width: 100%" type="range" value="1.0" step="0.01" min="0.0" max="2.0" onchange="updateFrame = true"></div><label>White Balance: <span id="balance-output"></span></label><div><input id="balance-input" type="color" value="#d6d6d6" onchange="updateFrame = true;"></div><label>Shadow Tint: <span id="shadow-tint-output"></span></label><div><input id="shadow-tint-input" type="color" value="#cce6ff" onchange="updateFrame = true;"></div><label>High Light Tint: <span id="highlight-tint-output"></span></label><div><input id="highlight-tint-input" type="color" value="#ffe6cc" onchange="updateFrame = true;"></div></details></div><div><details id="transitions"><summary>Transition</summary><div><label>Effect In</label> <select id="transition-in-effect-id-input"><option value="0">Horizontal Lines</option><option value="1">Vertical Lines</option><option value="2">Arc</option><option value="3">Squares</option><option value="4">Pie</option></select></div><div><label>Effect Out</label> <select id="transition-out-effect-id-input"><option value="0">Horizontal Lines</option><option value="1">Vertical Lines</option><option value="2">Arc</option><option value="3">Squares</option><option value="4">Pie</option></select></div><div><label>Transition Length:</label> <input id="transition-length-input" type="number" value="1" step="0.5" min="1" max="10"></div><input type="button" value="Transition" onclick="changeTransition()"></details></div><div><details id="lod"><summary>LOD</summary><label>Min Level: [<span id="lod-min-value">0.0</span>]</label> <input id="lod-min-input" style="width: 100%" type="range" value="0" step="0.01" min="0" max="14" onchange="document.getElementById('lod-min-value').textContent = event.target.value; updateFrame = true;"> <label>Max Level: [<span id="lod-max-value">3.0</span>]</label> <input id="lod-max-input" style="width: 100%" type="range" value="3.0" step="0.01" min="0" max="16" onchange="document.getElementById('lod-max-value').textContent = event.target.value; updateFrame = true;"> <label>Range Min: [<span id="lod-range-min-value">0.0</span>]</label> <input id="lod-range-min-input" style="width: 100%" type="range" value="0.0" step="0.5" min="0" max="100" onchange="document.getElementById('lod-range-min-value').textContent = event.target.value; updateFrame = true;"> <label>Range Max: [<span id="lod-range-max-value">35.0</span>]</label> <input id="lod-range-max-input" style="width: 100%" type="range" value="35.0" step="0.5" min="0" max="1500" onchange="document.getElementById('lod-range-max-value').textContent = event.target.value; updateFrame = true;"> <label>Debug:</label> <input id="lod-debug-input" type="checkbox" onchange="updateFrame = true;"></details></div><div><details id="debug-sliders"><summary>Debug Sliders</summary><label>Value 1: [<span id="debug-slider-1-value">0</span>]</label> <input id="debug-slider-1-input" style="width: 100%" type="range" value="0" step="0.0001" min="-5.0" max="5.0" onchange="document.getElementById('debug-slider-1-value').textContent = event.target.value; updateFrame = true;"> <label>Value 2: [<span id="debug-slider-2-value">0</span>]</label> <input id="debug-slider-2-input" style="width: 100%" type="range" value="0" step="0.0001" min="-5.0" max="5.0" onchange="document.getElementById('debug-slider-2-value').textContent = event.target.value; updateFrame = true;"> <label>Value 3: [<span id="debug-slider-3-value">0</span>]</label> <input id="debug-slider-3-input" style="width: 100%" type="range" value="0" step="0.0001" min="-5.0" max="5.0" onchange="document.getElementById('debug-slider-3-value').textContent = event.target.value; updateFrame = true;"> <label>Value 4: [<span id="debug-slider-4-value">0</span>]</label> <input id="debug-slider-4-input" style="width: 100%" type="range" value="0" step="0.0001" min="0.0" max="3.0" onchange="document.getElementById('debug-slider-4-value').textContent = event.target.value; updateFrame = true;"></details></div></details><details id="debug-events" open><summary>Events</summary><div><label><input id="debug-events-show-only-current-events-checkbox" type="checkbox"> show only current events</label><div><label>Filter:</label> <select id="debug-filter-events-select"><option value="0">All</option><option value="1">Current</option><option value="2">Effect</option><option value="3">Camera</option><option value="4">Colors</option><option value="5">Color 1</option><option value="6">Color 2</option><option value="7">Color 3</option><option value="8">Display (element class)</option><option value="9">Text</option><option value="10">Transition</option></select></div></div><div id="debug-events-table"><table style="width: 100%"><tbody id="debug-events-table-body"></tbody></table></div><div><input type="text" size="12" value="events7">.js <button type="button" onclick="saveEvents()">SAVE</button></div></details><dialog id="edit-event-dialog"><form><div><label>ID:</label> <input id="edit-event-id" type="text"></div><br><div><label>Time:</label> <input id="edit-event-time" type="number" step="0.25"></div><br><div><label>Type:</label> <select id="edit-event-type"><option value="1">Effect Change</option><option value="2">Beat</option><option value="3">Element Class Change</option><option value="4">Camera Change</option><option value="5">Text Change</option><option value="11">Color 1 Change</option><option value="12">Color 2 Change</option><option value="13">Color 3 Change</option><option value="20">Transition</option><option value="31">Exposure</option></select></div><br><label>Parameters:</label><div><textarea id="edit-event-json" style="width: 500px; height: 150px"></textarea></div><div><button value="cancel" formmethod="dialog">Cancel</button> <button id="edit-event-copy-button" value="copy" formmethod="dialog">Copy</button> <button id="edit-event-save-button" value="default" formmethod="dialog">Save</button></div></form></dialog><div id="progress-bars"><div><div>Compiling & warming up effects:</div><progress id="init-progress" value="0" max="1"></progress><div id="progress-bars-effect"></div></div></div><audio id="music" controls src="./audio/FORTRESS.mp3" preload="auto" ontimeupdate="updateFrame=true"></audio><script src="./src/init.js" defer="defer"></script></body></html>
