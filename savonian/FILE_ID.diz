@@ -1,0 +1,30 @@
+          -= SAVONIAN TWIST =-
+                  by 
+             GRAY MARCHERS 
+
+          --------------------
+
+       CODE/MUSIC/DIRECTION/MODELS
+                 OUTRON
+
+          CODE / BUILD SCRIPTS
+               SEVEN_DC
+
+          --------------------
+
+            BEBAS NEUE FONT
+           RYOICHI TSUNEKAWA
+
+   For Byterapers 40th Anniversary Party
+
+   Tested on Mac and Windows. Should work
+   on Linux too.
+
+   Works best on Chrome. Safari and 
+   Firefox work too, but are slow.
+   
+   Tools: VS Code, Logic, SDFModeler
+          Node.js, Roadroller 
+
+   Open with query parameter show-audio=true
+   to enable audio controls.
